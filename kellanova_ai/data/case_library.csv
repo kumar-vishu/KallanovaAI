@@ -1,0 +1,11 @@
+case_id,issue_type,description,action_taken,result,embedding_vector
+CASE001,shelf_compliance,Low facings for cereal category reducing visibility on shelf,"Negotiated extra shelf space with store manager, relocated to eye level",Sales increased 22% within 3 weeks,
+CASE002,promotion_execution,Display promotion not executed at store - missing endcap,Installed endcap display with POS material and price ticket,Promotional sales lift of 35% observed during activation period,
+CASE003,out_of_stock,Pringles range OOS for 2 consecutive weeks,"Emergency replenishment arranged, buffer stock agreed with store","Recovered $1,800 weekly revenue, OOS resolved",
+CASE004,distribution_gap,New Nutri-Grain Bar variant not listed in PAK'nSAVE,"Presented range review data to category manager, secured listing",New SKU generating $500/week incremental revenue,
+CASE005,event_opportunity,Rugby match 8km away - no snack display or event stock,"Built event display, increased Pringles facing, added dump bin","Weekend sales +45%, sold through all event stock",
+CASE006,hidden_opportunity,Store under-indexing vs regional peers by 40% on cereal,"Full range audit, fixed planogram, added Special K promotional display",Sales grew 28% over 6 weeks to match regional benchmark,
+CASE007,shelf_compliance,Snack bar section underfaced vs planogram,"Rebuilt section to planogram standard, added clip strip",Category sales increased 18%,
+CASE008,promotion_execution,Feature ad running but no price ticket in store,Installed price tickets and shelf talkers on day of visit,Promo redemption rate improved from 12% to 41%,
+CASE009,out_of_stock,Coco Pops OOS during school holidays peak period,Worked with store to increase order quantity and delivery frequency,"Prevented estimated $2,200 lost revenue",
+CASE010,event_opportunity,Music festival nearby with 20K attendance - no activation,Placed Pringles dump bin at store entrance with festival-themed POS,"Weekend snack sales +60%, clear ROI vs display cost",

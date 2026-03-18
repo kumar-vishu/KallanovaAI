@@ -1,0 +1,1572 @@
+opportunity_id,store_id,sku_id,issue_type,root_cause,opportunity_value,priority_score,detected_date
+1,1001,KEL001,event_opportunity,near_Nelson Jazz Festival,0.0,0.0,2024-06-30
+2,1001,KEL002,event_opportunity,near_Nelson Jazz Festival,3.23,2.26,2024-06-30
+3,1001,KEL003,event_opportunity,near_Nelson Jazz Festival,4.41,3.09,2024-06-30
+4,1001,KEL004,event_opportunity,near_Nelson Jazz Festival,0.0,0.0,2024-06-30
+5,1001,KEL005,event_opportunity,near_Nelson Jazz Festival,0.0,0.0,2024-06-30
+6,1001,KEL006,event_opportunity,near_Nelson Jazz Festival,0.0,0.0,2024-06-30
+7,1001,KEL007,event_opportunity,near_Nelson Jazz Festival,0.0,0.0,2024-06-30
+8,1001,KEL008,out_of_stock,product_oos,27.19,27.19,2024-06-30
+9,1001,KEL008,event_opportunity,near_Nelson Jazz Festival,27.19,19.03,2024-06-30
+10,1001,KEL009,event_opportunity,near_Nelson Jazz Festival,1.55,1.08,2024-06-30
+11,1001,KEL010,event_opportunity,near_Nelson Jazz Festival,1.53,1.07,2024-06-30
+12,1001,KEL011,event_opportunity,near_Nelson Jazz Festival,0.38,0.27,2024-06-30
+13,1001,KEL012,event_opportunity,near_Nelson Jazz Festival,0.35,0.24,2024-06-30
+14,1001,KEL013,event_opportunity,near_Nelson Jazz Festival,0.0,0.0,2024-06-30
+15,1001,KEL014,event_opportunity,near_Nelson Jazz Festival,0.0,0.0,2024-06-30
+16,1001,KEL015,event_opportunity,near_Nelson Jazz Festival,0.0,0.0,2024-06-30
+17,1001,KEL016,event_opportunity,near_Nelson Jazz Festival,0.0,0.0,2024-06-30
+18,1001,KEL017,event_opportunity,near_Nelson Jazz Festival,6.78,4.75,2024-06-30
+19,1001,KEL018,out_of_stock,product_oos,17.52,17.52,2024-06-30
+20,1001,KEL018,shelf_compliance,low_shelf_facings,17.52,13.14,2024-06-30
+21,1001,KEL018,event_opportunity,near_Nelson Jazz Festival,17.52,12.26,2024-06-30
+22,1001,KEL019,event_opportunity,near_Nelson Jazz Festival,0.0,0.0,2024-06-30
+23,1001,KEL020,out_of_stock,product_oos,24.12,24.12,2024-06-30
+24,1001,KEL020,shelf_compliance,low_shelf_facings,24.12,18.09,2024-06-30
+25,1001,KEL020,promotion_execution,missing_display,24.12,20.5,2024-06-30
+26,1001,KEL020,event_opportunity,near_Nelson Jazz Festival,24.12,16.88,2024-06-30
+27,1002,KEL001,out_of_stock,product_oos,37.83,37.83,2024-06-30
+28,1002,KEL001,shelf_compliance,low_shelf_facings,37.83,28.37,2024-06-30
+29,1002,KEL001,promotion_execution,missing_display,37.83,32.16,2024-06-30
+30,1002,KEL001,event_opportunity,near_Homegrown Festival W,37.83,26.48,2024-06-30
+31,1002,KEL002,promotion_execution,missing_display,3.17,2.69,2024-06-30
+32,1002,KEL002,event_opportunity,near_Homegrown Festival W,3.17,2.22,2024-06-30
+33,1002,KEL003,out_of_stock,product_oos,34.33,34.33,2024-06-30
+34,1002,KEL003,shelf_compliance,low_shelf_facings,34.33,25.75,2024-06-30
+35,1002,KEL003,promotion_execution,missing_display,34.33,29.18,2024-06-30
+36,1002,KEL003,event_opportunity,near_Homegrown Festival W,34.33,24.03,2024-06-30
+37,1002,KEL004,event_opportunity,near_Homegrown Festival W,5.03,3.52,2024-06-30
+38,1002,KEL005,event_opportunity,near_Homegrown Festival W,1.43,1.0,2024-06-30
+39,1002,KEL006,shelf_compliance,low_shelf_facings,11.02,8.27,2024-06-30
+40,1002,KEL006,event_opportunity,near_Homegrown Festival W,11.02,7.71,2024-06-30
+41,1002,KEL007,shelf_compliance,low_shelf_facings,14.47,10.85,2024-06-30
+42,1002,KEL007,promotion_execution,missing_display,14.47,12.3,2024-06-30
+43,1002,KEL007,event_opportunity,near_Homegrown Festival W,14.47,10.13,2024-06-30
+44,1002,KEL008,out_of_stock,product_oos,39.11,39.11,2024-06-30
+45,1002,KEL008,shelf_compliance,low_shelf_facings,39.11,29.33,2024-06-30
+46,1002,KEL008,promotion_execution,missing_display,39.11,33.24,2024-06-30
+47,1002,KEL008,event_opportunity,near_Homegrown Festival W,39.11,27.38,2024-06-30
+48,1002,KEL009,event_opportunity,near_Homegrown Festival W,7.19,5.03,2024-06-30
+49,1002,KEL010,shelf_compliance,low_shelf_facings,11.67,8.75,2024-06-30
+50,1002,KEL010,promotion_execution,missing_display,11.67,9.92,2024-06-30
+51,1002,KEL010,event_opportunity,near_Homegrown Festival W,11.67,8.17,2024-06-30
+52,1002,KEL011,shelf_compliance,low_shelf_facings,4.67,3.5,2024-06-30
+53,1002,KEL011,promotion_execution,missing_display,4.67,3.97,2024-06-30
+54,1002,KEL011,event_opportunity,near_Homegrown Festival W,4.67,3.27,2024-06-30
+55,1002,KEL012,event_opportunity,near_Homegrown Festival W,11.23,7.86,2024-06-30
+56,1002,KEL013,out_of_stock,product_oos,34.57,34.57,2024-06-30
+57,1002,KEL013,shelf_compliance,low_shelf_facings,34.57,25.93,2024-06-30
+58,1002,KEL013,promotion_execution,missing_display,34.57,29.38,2024-06-30
+59,1002,KEL013,event_opportunity,near_Homegrown Festival W,34.57,24.2,2024-06-30
+60,1002,KEL014,event_opportunity,near_Homegrown Festival W,5.03,3.52,2024-06-30
+61,1002,KEL015,event_opportunity,near_Homegrown Festival W,9.83,6.88,2024-06-30
+62,1002,KEL016,event_opportunity,near_Homegrown Festival W,0.58,0.41,2024-06-30
+63,1002,KEL017,promotion_execution,missing_display,0.0,0.0,2024-06-30
+64,1002,KEL017,event_opportunity,near_Homegrown Festival W,0.0,0.0,2024-06-30
+65,1002,KEL018,shelf_compliance,low_shelf_facings,1.29,0.97,2024-06-30
+66,1002,KEL018,promotion_execution,missing_display,1.29,1.1,2024-06-30
+67,1002,KEL018,event_opportunity,near_Homegrown Festival W,1.29,0.9,2024-06-30
+68,1002,KEL019,event_opportunity,near_Homegrown Festival W,0.7,0.49,2024-06-30
+69,1002,KEL020,out_of_stock,product_oos,41.66,41.66,2024-06-30
+70,1002,KEL020,shelf_compliance,low_shelf_facings,41.66,31.24,2024-06-30
+71,1002,KEL020,promotion_execution,missing_display,41.66,35.41,2024-06-30
+72,1002,KEL020,event_opportunity,near_Homegrown Festival W,41.66,29.16,2024-06-30
+73,1003,KEL001,shelf_compliance,low_shelf_facings,3.9,2.92,2024-06-30
+74,1003,KEL001,promotion_execution,missing_display,3.9,3.31,2024-06-30
+75,1003,KEL001,event_opportunity,near_Queenstown Winter Fe,3.9,2.73,2024-06-30
+76,1003,KEL002,promotion_execution,missing_display,2.82,2.4,2024-06-30
+77,1003,KEL002,event_opportunity,near_Queenstown Winter Fe,2.82,1.97,2024-06-30
+78,1003,KEL003,event_opportunity,near_Queenstown Winter Fe,2.27,1.59,2024-06-30
+79,1003,KEL004,event_opportunity,near_Queenstown Winter Fe,2.22,1.55,2024-06-30
+80,1003,KEL005,out_of_stock,product_oos,25.86,25.86,2024-06-30
+81,1003,KEL005,shelf_compliance,low_shelf_facings,25.86,19.39,2024-06-30
+82,1003,KEL005,promotion_execution,missing_display,25.86,21.98,2024-06-30
+83,1003,KEL005,event_opportunity,near_Queenstown Winter Fe,25.86,18.1,2024-06-30
+84,1003,KEL006,event_opportunity,near_Queenstown Winter Fe,2.22,1.55,2024-06-30
+85,1003,KEL007,event_opportunity,near_Queenstown Winter Fe,0.71,0.5,2024-06-30
+86,1003,KEL008,event_opportunity,near_Queenstown Winter Fe,8.21,5.75,2024-06-30
+87,1003,KEL009,shelf_compliance,low_shelf_facings,6.19,4.64,2024-06-30
+88,1003,KEL009,promotion_execution,missing_display,6.19,5.26,2024-06-30
+89,1003,KEL009,event_opportunity,near_Queenstown Winter Fe,6.19,4.33,2024-06-30
+90,1003,KEL010,event_opportunity,near_Queenstown Winter Fe,1.89,1.32,2024-06-30
+91,1003,KEL011,event_opportunity,near_Queenstown Winter Fe,4.45,3.11,2024-06-30
+92,1003,KEL012,event_opportunity,near_Queenstown Winter Fe,4.94,3.46,2024-06-30
+93,1003,KEL013,out_of_stock,product_oos,26.49,26.49,2024-06-30
+94,1003,KEL013,event_opportunity,near_Queenstown Winter Fe,26.49,18.54,2024-06-30
+95,1003,KEL014,event_opportunity,near_Queenstown Winter Fe,1.44,1.01,2024-06-30
+96,1003,KEL015,out_of_stock,product_oos,22.23,22.23,2024-06-30
+97,1003,KEL015,promotion_execution,missing_display,22.23,18.9,2024-06-30
+98,1003,KEL015,event_opportunity,near_Queenstown Winter Fe,22.23,15.56,2024-06-30
+99,1003,KEL016,event_opportunity,near_Queenstown Winter Fe,5.21,3.65,2024-06-30
+100,1003,KEL017,event_opportunity,near_Queenstown Winter Fe,5.03,3.52,2024-06-30
+101,1003,KEL018,shelf_compliance,low_shelf_facings,2.99,2.24,2024-06-30
+102,1003,KEL018,event_opportunity,near_Queenstown Winter Fe,2.99,2.09,2024-06-30
+103,1003,KEL019,promotion_execution,missing_display,0.0,0.0,2024-06-30
+104,1003,KEL019,event_opportunity,near_Queenstown Winter Fe,0.0,0.0,2024-06-30
+105,1003,KEL020,event_opportunity,near_Queenstown Winter Fe,0.0,0.0,2024-06-30
+106,1004,KEL001,event_opportunity,near_Palmerston North Rug,0.0,0.0,2024-06-30
+107,1004,KEL002,out_of_stock,product_oos,50.2,50.2,2024-06-30
+108,1004,KEL002,promotion_execution,missing_display,50.2,42.67,2024-06-30
+109,1004,KEL002,event_opportunity,near_Palmerston North Rug,50.2,35.14,2024-06-30
+110,1004,KEL003,out_of_stock,product_oos,44.07,44.07,2024-06-30
+111,1004,KEL003,promotion_execution,missing_display,44.07,37.46,2024-06-30
+112,1004,KEL003,event_opportunity,near_Palmerston North Rug,44.07,30.85,2024-06-30
+113,1004,KEL004,promotion_execution,missing_display,2.28,1.94,2024-06-30
+114,1004,KEL004,event_opportunity,near_Palmerston North Rug,2.28,1.6,2024-06-30
+115,1004,KEL005,promotion_execution,missing_display,10.05,8.54,2024-06-30
+116,1004,KEL005,event_opportunity,near_Palmerston North Rug,10.05,7.04,2024-06-30
+117,1004,KEL006,promotion_execution,missing_display,2.28,1.94,2024-06-30
+118,1004,KEL006,event_opportunity,near_Palmerston North Rug,2.28,1.6,2024-06-30
+119,1004,KEL007,event_opportunity,near_Palmerston North Rug,0.0,0.0,2024-06-30
+120,1004,KEL008,shelf_compliance,low_shelf_facings,8.27,6.2,2024-06-30
+121,1004,KEL008,promotion_execution,missing_display,8.27,7.03,2024-06-30
+122,1004,KEL008,event_opportunity,near_Palmerston North Rug,8.27,5.79,2024-06-30
+123,1004,KEL009,promotion_execution,missing_display,0.0,0.0,2024-06-30
+124,1004,KEL009,event_opportunity,near_Palmerston North Rug,0.0,0.0,2024-06-30
+125,1004,KEL010,event_opportunity,near_Palmerston North Rug,0.0,0.0,2024-06-30
+126,1004,KEL011,event_opportunity,near_Palmerston North Rug,5.54,3.88,2024-06-30
+127,1004,KEL012,event_opportunity,near_Palmerston North Rug,1.1,0.77,2024-06-30
+128,1004,KEL013,promotion_execution,missing_display,1.48,1.26,2024-06-30
+129,1004,KEL013,event_opportunity,near_Palmerston North Rug,1.48,1.04,2024-06-30
+130,1004,KEL014,event_opportunity,near_Palmerston North Rug,0.04,0.03,2024-06-30
+131,1004,KEL015,shelf_compliance,low_shelf_facings,13.65,10.24,2024-06-30
+132,1004,KEL015,event_opportunity,near_Palmerston North Rug,13.65,9.55,2024-06-30
+133,1004,KEL016,event_opportunity,near_Palmerston North Rug,0.94,0.66,2024-06-30
+134,1004,KEL017,event_opportunity,near_Palmerston North Rug,0.0,0.0,2024-06-30
+135,1004,KEL018,event_opportunity,near_Palmerston North Rug,0.0,0.0,2024-06-30
+136,1004,KEL019,event_opportunity,near_Palmerston North Rug,0.0,0.0,2024-06-30
+137,1004,KEL020,event_opportunity,near_Palmerston North Rug,1.19,0.83,2024-06-30
+138,1005,KEL001,shelf_compliance,low_shelf_facings,9.5,7.12,2024-06-30
+139,1005,KEL001,promotion_execution,missing_display,9.5,8.07,2024-06-30
+140,1005,KEL001,event_opportunity,near_Hamilton Garden Arts,9.5,6.65,2024-06-30
+141,1005,KEL002,out_of_stock,product_oos,39.11,39.11,2024-06-30
+142,1005,KEL002,event_opportunity,near_Hamilton Garden Arts,39.11,27.38,2024-06-30
+143,1005,KEL003,event_opportunity,near_Hamilton Garden Arts,1.88,1.32,2024-06-30
+144,1005,KEL004,event_opportunity,near_Hamilton Garden Arts,3.17,2.22,2024-06-30
+145,1005,KEL005,promotion_execution,missing_display,0.0,0.0,2024-06-30
+146,1005,KEL005,event_opportunity,near_Hamilton Garden Arts,0.0,0.0,2024-06-30
+147,1005,KEL006,event_opportunity,near_Hamilton Garden Arts,3.17,2.22,2024-06-30
+148,1005,KEL007,event_opportunity,near_Hamilton Garden Arts,1.43,1.0,2024-06-30
+149,1005,KEL008,event_opportunity,near_Hamilton Garden Arts,3.17,2.22,2024-06-30
+150,1005,KEL009,shelf_compliance,low_shelf_facings,5.79,4.34,2024-06-30
+151,1005,KEL009,promotion_execution,missing_display,5.79,4.92,2024-06-30
+152,1005,KEL009,event_opportunity,near_Hamilton Garden Arts,5.79,4.05,2024-06-30
+153,1005,KEL010,out_of_stock,product_oos,24.7,24.7,2024-06-30
+154,1005,KEL010,shelf_compliance,low_shelf_facings,24.7,18.52,2024-06-30
+155,1005,KEL010,promotion_execution,missing_display,24.7,20.99,2024-06-30
+156,1005,KEL010,event_opportunity,near_Hamilton Garden Arts,24.7,17.29,2024-06-30
+157,1005,KEL011,event_opportunity,near_Hamilton Garden Arts,4.67,3.27,2024-06-30
+158,1005,KEL012,promotion_execution,missing_display,5.34,4.54,2024-06-30
+159,1005,KEL012,event_opportunity,near_Hamilton Garden Arts,5.34,3.74,2024-06-30
+160,1005,KEL013,event_opportunity,near_Hamilton Garden Arts,0.0,0.0,2024-06-30
+161,1005,KEL014,out_of_stock,product_oos,31.79,31.79,2024-06-30
+162,1005,KEL014,shelf_compliance,low_shelf_facings,31.79,23.84,2024-06-30
+163,1005,KEL014,event_opportunity,near_Hamilton Garden Arts,31.79,22.25,2024-06-30
+164,1005,KEL015,event_opportunity,near_Hamilton Garden Arts,5.79,4.05,2024-06-30
+165,1005,KEL016,event_opportunity,near_Hamilton Garden Arts,0.0,0.0,2024-06-30
+166,1005,KEL017,shelf_compliance,low_shelf_facings,10.69,8.02,2024-06-30
+167,1005,KEL017,promotion_execution,missing_display,10.69,9.09,2024-06-30
+168,1005,KEL017,event_opportunity,near_Hamilton Garden Arts,10.69,7.48,2024-06-30
+169,1005,KEL018,event_opportunity,near_Hamilton Garden Arts,1.26,0.88,2024-06-30
+170,1005,KEL019,shelf_compliance,low_shelf_facings,7.99,5.99,2024-06-30
+171,1005,KEL019,promotion_execution,missing_display,7.99,6.79,2024-06-30
+172,1005,KEL019,event_opportunity,near_Hamilton Garden Arts,7.99,5.59,2024-06-30
+173,1005,KEL020,event_opportunity,near_Hamilton Garden Arts,6.64,4.65,2024-06-30
+174,1006,KEL001,event_opportunity,near_ASB Classic Tennis A,12.08,8.46,2024-06-30
+175,1006,KEL002,shelf_compliance,low_shelf_facings,3.77,2.83,2024-06-30
+176,1006,KEL002,event_opportunity,near_ASB Classic Tennis A,3.77,2.64,2024-06-30
+177,1006,KEL003,out_of_stock,product_oos,55.88,55.88,2024-06-30
+178,1006,KEL003,event_opportunity,near_ASB Classic Tennis A,55.88,39.12,2024-06-30
+179,1006,KEL004,event_opportunity,near_ASB Classic Tennis A,3.77,2.64,2024-06-30
+180,1006,KEL005,event_opportunity,near_ASB Classic Tennis A,6.59,4.61,2024-06-30
+181,1006,KEL006,shelf_compliance,low_shelf_facings,11.14,8.36,2024-06-30
+182,1006,KEL006,promotion_execution,missing_display,11.14,9.47,2024-06-30
+183,1006,KEL006,event_opportunity,near_ASB Classic Tennis A,11.14,7.8,2024-06-30
+184,1006,KEL007,promotion_execution,missing_display,9.35,7.95,2024-06-30
+185,1006,KEL007,event_opportunity,near_ASB Classic Tennis A,9.35,6.54,2024-06-30
+186,1006,KEL008,event_opportunity,near_ASB Classic Tennis A,4.55,3.18,2024-06-30
+187,1006,KEL009,event_opportunity,near_ASB Classic Tennis A,5.39,3.77,2024-06-30
+188,1006,KEL010,event_opportunity,near_ASB Classic Tennis A,0.0,0.0,2024-06-30
+189,1006,KEL011,event_opportunity,near_ASB Classic Tennis A,2.85,1.99,2024-06-30
+190,1006,KEL012,event_opportunity,near_ASB Classic Tennis A,9.28,6.5,2024-06-30
+191,1006,KEL013,promotion_execution,missing_display,6.82,5.8,2024-06-30
+192,1006,KEL013,event_opportunity,near_ASB Classic Tennis A,6.82,4.77,2024-06-30
+193,1006,KEL014,promotion_execution,missing_display,6.74,5.73,2024-06-30
+194,1006,KEL014,event_opportunity,near_ASB Classic Tennis A,6.74,4.72,2024-06-30
+195,1006,KEL015,promotion_execution,missing_display,10.46,8.89,2024-06-30
+196,1006,KEL015,event_opportunity,near_ASB Classic Tennis A,10.46,7.32,2024-06-30
+197,1006,KEL016,event_opportunity,near_ASB Classic Tennis A,13.11,9.18,2024-06-30
+198,1006,KEL017,event_opportunity,near_ASB Classic Tennis A,4.12,2.88,2024-06-30
+199,1006,KEL018,event_opportunity,near_ASB Classic Tennis A,2.12,1.48,2024-06-30
+200,1006,KEL019,event_opportunity,near_ASB Classic Tennis A,4.98,3.49,2024-06-30
+201,1006,KEL020,out_of_stock,product_oos,56.48,56.48,2024-06-30
+202,1006,KEL020,promotion_execution,missing_display,56.48,48.01,2024-06-30
+203,1006,KEL020,event_opportunity,near_ASB Classic Tennis A,56.48,39.54,2024-06-30
+204,1007,KEL001,event_opportunity,near_Hamilton Garden Arts,1.65,1.15,2024-06-30
+205,1007,KEL002,event_opportunity,near_Hamilton Garden Arts,0.18,0.13,2024-06-30
+206,1007,KEL003,shelf_compliance,low_shelf_facings,2.53,1.9,2024-06-30
+207,1007,KEL003,promotion_execution,missing_display,2.53,2.15,2024-06-30
+208,1007,KEL003,event_opportunity,near_Hamilton Garden Arts,2.53,1.77,2024-06-30
+209,1007,KEL004,event_opportunity,near_Hamilton Garden Arts,6.17,4.32,2024-06-30
+210,1007,KEL005,event_opportunity,near_Hamilton Garden Arts,7.14,5.0,2024-06-30
+211,1007,KEL006,shelf_compliance,low_shelf_facings,9.16,6.87,2024-06-30
+212,1007,KEL006,event_opportunity,near_Hamilton Garden Arts,9.16,6.41,2024-06-30
+213,1007,KEL007,event_opportunity,near_Hamilton Garden Arts,0.0,0.0,2024-06-30
+214,1007,KEL008,event_opportunity,near_Hamilton Garden Arts,6.17,4.32,2024-06-30
+215,1007,KEL009,event_opportunity,near_Hamilton Garden Arts,0.0,0.0,2024-06-30
+216,1007,KEL010,shelf_compliance,low_shelf_facings,5.52,4.14,2024-06-30
+217,1007,KEL010,promotion_execution,missing_display,5.52,4.69,2024-06-30
+218,1007,KEL010,event_opportunity,near_Hamilton Garden Arts,5.52,3.86,2024-06-30
+219,1007,KEL011,shelf_compliance,low_shelf_facings,2.75,2.06,2024-06-30
+220,1007,KEL011,event_opportunity,near_Hamilton Garden Arts,2.75,1.92,2024-06-30
+221,1007,KEL012,event_opportunity,near_Hamilton Garden Arts,3.04,2.13,2024-06-30
+222,1007,KEL013,event_opportunity,near_Hamilton Garden Arts,2.29,1.6,2024-06-30
+223,1007,KEL014,event_opportunity,near_Hamilton Garden Arts,0.58,0.41,2024-06-30
+224,1007,KEL015,out_of_stock,product_oos,28.87,28.87,2024-06-30
+225,1007,KEL015,event_opportunity,near_Hamilton Garden Arts,28.87,20.21,2024-06-30
+226,1007,KEL016,event_opportunity,near_Hamilton Garden Arts,1.89,1.32,2024-06-30
+227,1007,KEL017,event_opportunity,near_Hamilton Garden Arts,4.12,2.88,2024-06-30
+228,1007,KEL018,event_opportunity,near_Hamilton Garden Arts,1.44,1.01,2024-06-30
+229,1007,KEL019,event_opportunity,near_Hamilton Garden Arts,1.27,0.89,2024-06-30
+230,1007,KEL020,promotion_execution,missing_display,0.0,0.0,2024-06-30
+231,1007,KEL020,event_opportunity,near_Hamilton Garden Arts,0.0,0.0,2024-06-30
+232,1008,KEL001,event_opportunity,near_Rotorua Marathon,5.33,3.73,2024-06-30
+233,1008,KEL002,out_of_stock,product_oos,45.34,45.34,2024-06-30
+234,1008,KEL002,event_opportunity,near_Rotorua Marathon,45.34,31.74,2024-06-30
+235,1008,KEL003,event_opportunity,near_Rotorua Marathon,0.84,0.59,2024-06-30
+236,1008,KEL004,event_opportunity,near_Rotorua Marathon,9.4,6.58,2024-06-30
+237,1008,KEL005,shelf_compliance,low_shelf_facings,16.31,12.23,2024-06-30
+238,1008,KEL005,promotion_execution,missing_display,16.31,13.86,2024-06-30
+239,1008,KEL005,event_opportunity,near_Rotorua Marathon,16.31,11.42,2024-06-30
+240,1008,KEL006,event_opportunity,near_Rotorua Marathon,3.41,2.39,2024-06-30
+241,1008,KEL007,shelf_compliance,low_shelf_facings,1.36,1.02,2024-06-30
+242,1008,KEL007,event_opportunity,near_Rotorua Marathon,1.36,0.95,2024-06-30
+243,1008,KEL008,shelf_compliance,low_shelf_facings,13.78,10.33,2024-06-30
+244,1008,KEL008,promotion_execution,missing_display,13.78,11.71,2024-06-30
+245,1008,KEL008,event_opportunity,near_Rotorua Marathon,13.78,9.65,2024-06-30
+246,1008,KEL009,event_opportunity,near_Rotorua Marathon,5.89,4.12,2024-06-30
+247,1008,KEL010,promotion_execution,missing_display,1.66,1.41,2024-06-30
+248,1008,KEL010,event_opportunity,near_Rotorua Marathon,1.66,1.16,2024-06-30
+249,1008,KEL011,shelf_compliance,low_shelf_facings,9.06,6.79,2024-06-30
+250,1008,KEL011,promotion_execution,missing_display,9.06,7.7,2024-06-30
+251,1008,KEL011,event_opportunity,near_Rotorua Marathon,9.06,6.34,2024-06-30
+252,1008,KEL012,shelf_compliance,low_shelf_facings,7.19,5.39,2024-06-30
+253,1008,KEL012,event_opportunity,near_Rotorua Marathon,7.19,5.03,2024-06-30
+254,1008,KEL013,event_opportunity,near_Rotorua Marathon,4.27,2.99,2024-06-30
+255,1008,KEL014,promotion_execution,missing_display,4.98,4.23,2024-06-30
+256,1008,KEL014,event_opportunity,near_Rotorua Marathon,4.98,3.49,2024-06-30
+257,1008,KEL015,out_of_stock,product_oos,37.58,37.58,2024-06-30
+258,1008,KEL015,shelf_compliance,low_shelf_facings,37.58,28.18,2024-06-30
+259,1008,KEL015,event_opportunity,near_Rotorua Marathon,37.58,26.31,2024-06-30
+260,1008,KEL016,out_of_stock,product_oos,38.93,38.93,2024-06-30
+261,1008,KEL016,shelf_compliance,low_shelf_facings,38.93,29.2,2024-06-30
+262,1008,KEL016,event_opportunity,near_Rotorua Marathon,38.93,27.25,2024-06-30
+263,1008,KEL017,out_of_stock,product_oos,52.56,52.56,2024-06-30
+264,1008,KEL017,event_opportunity,near_Rotorua Marathon,52.56,36.79,2024-06-30
+265,1008,KEL018,event_opportunity,near_Rotorua Marathon,2.27,1.59,2024-06-30
+266,1008,KEL019,shelf_compliance,low_shelf_facings,9.16,6.87,2024-06-30
+267,1008,KEL019,promotion_execution,missing_display,9.16,7.79,2024-06-30
+268,1008,KEL019,event_opportunity,near_Rotorua Marathon,9.16,6.41,2024-06-30
+269,1008,KEL020,event_opportunity,near_Rotorua Marathon,0.0,0.0,2024-06-30
+270,1009,KEL001,event_opportunity,near_Hamilton Garden Arts,0.22,0.15,2024-06-30
+271,1009,KEL002,event_opportunity,near_Hamilton Garden Arts,4.37,3.06,2024-06-30
+272,1009,KEL003,out_of_stock,product_oos,25.12,25.12,2024-06-30
+273,1009,KEL003,shelf_compliance,low_shelf_facings,25.12,18.84,2024-06-30
+274,1009,KEL003,promotion_execution,missing_display,25.12,21.35,2024-06-30
+275,1009,KEL003,event_opportunity,near_Hamilton Garden Arts,25.12,17.58,2024-06-30
+276,1009,KEL004,event_opportunity,near_Hamilton Garden Arts,0.0,0.0,2024-06-30
+277,1009,KEL005,event_opportunity,near_Hamilton Garden Arts,5.71,4.0,2024-06-30
+278,1009,KEL006,promotion_execution,missing_display,0.0,0.0,2024-06-30
+279,1009,KEL006,event_opportunity,near_Hamilton Garden Arts,0.0,0.0,2024-06-30
+280,1009,KEL007,shelf_compliance,low_shelf_facings,10.06,7.54,2024-06-30
+281,1009,KEL007,promotion_execution,missing_display,10.06,8.55,2024-06-30
+282,1009,KEL007,event_opportunity,near_Hamilton Garden Arts,10.06,7.04,2024-06-30
+283,1009,KEL008,shelf_compliance,low_shelf_facings,4.37,3.28,2024-06-30
+284,1009,KEL008,event_opportunity,near_Hamilton Garden Arts,4.37,3.06,2024-06-30
+285,1009,KEL009,promotion_execution,missing_display,2.64,2.24,2024-06-30
+286,1009,KEL009,event_opportunity,near_Hamilton Garden Arts,2.64,1.85,2024-06-30
+287,1009,KEL010,promotion_execution,missing_display,3.73,3.17,2024-06-30
+288,1009,KEL010,event_opportunity,near_Hamilton Garden Arts,3.73,2.61,2024-06-30
+289,1009,KEL011,event_opportunity,near_Hamilton Garden Arts,0.77,0.54,2024-06-30
+290,1009,KEL012,out_of_stock,product_oos,31.94,31.94,2024-06-30
+291,1009,KEL012,event_opportunity,near_Hamilton Garden Arts,31.94,22.36,2024-06-30
+292,1009,KEL013,out_of_stock,product_oos,31.12,31.12,2024-06-30
+293,1009,KEL013,shelf_compliance,low_shelf_facings,31.12,23.34,2024-06-30
+294,1009,KEL013,event_opportunity,near_Hamilton Garden Arts,31.12,21.78,2024-06-30
+295,1009,KEL014,event_opportunity,near_Hamilton Garden Arts,5.07,3.55,2024-06-30
+296,1009,KEL015,out_of_stock,product_oos,23.98,23.98,2024-06-30
+297,1009,KEL015,shelf_compliance,low_shelf_facings,23.98,17.98,2024-06-30
+298,1009,KEL015,promotion_execution,missing_display,23.98,20.38,2024-06-30
+299,1009,KEL015,event_opportunity,near_Hamilton Garden Arts,23.98,16.79,2024-06-30
+300,1009,KEL016,shelf_compliance,low_shelf_facings,13.96,10.47,2024-06-30
+301,1009,KEL016,event_opportunity,near_Hamilton Garden Arts,13.96,9.77,2024-06-30
+302,1009,KEL017,event_opportunity,near_Hamilton Garden Arts,9.65,6.75,2024-06-30
+303,1009,KEL018,promotion_execution,missing_display,3.47,2.95,2024-06-30
+304,1009,KEL018,event_opportunity,near_Hamilton Garden Arts,3.47,2.43,2024-06-30
+305,1009,KEL019,event_opportunity,near_Hamilton Garden Arts,0.0,0.0,2024-06-30
+306,1009,KEL020,event_opportunity,near_Hamilton Garden Arts,0.0,0.0,2024-06-30
+307,1010,KEL001,event_opportunity,near_Homegrown Festival W,0.0,0.0,2024-06-30
+308,1010,KEL002,promotion_execution,missing_display,9.1,7.73,2024-06-30
+309,1010,KEL002,event_opportunity,near_Homegrown Festival W,9.1,6.37,2024-06-30
+310,1010,KEL003,event_opportunity,near_Homegrown Festival W,0.0,0.0,2024-06-30
+311,1010,KEL004,event_opportunity,near_Homegrown Festival W,7.31,5.12,2024-06-30
+312,1010,KEL005,event_opportunity,near_Homegrown Festival W,9.72,6.8,2024-06-30
+313,1010,KEL006,event_opportunity,near_Homegrown Festival W,0.0,0.0,2024-06-30
+314,1010,KEL007,event_opportunity,near_Homegrown Festival W,0.0,0.0,2024-06-30
+315,1010,KEL008,event_opportunity,near_Homegrown Festival W,1.32,0.92,2024-06-30
+316,1010,KEL009,out_of_stock,product_oos,40.32,40.32,2024-06-30
+317,1010,KEL009,shelf_compliance,low_shelf_facings,40.32,30.24,2024-06-30
+318,1010,KEL009,promotion_execution,missing_display,40.32,34.27,2024-06-30
+319,1010,KEL009,event_opportunity,near_Homegrown Festival W,40.32,28.22,2024-06-30
+320,1010,KEL010,event_opportunity,near_Homegrown Festival W,1.48,1.04,2024-06-30
+321,1010,KEL011,out_of_stock,product_oos,50.29,50.29,2024-06-30
+322,1010,KEL011,shelf_compliance,low_shelf_facings,50.29,37.72,2024-06-30
+323,1010,KEL011,event_opportunity,near_Homegrown Festival W,50.29,35.2,2024-06-30
+324,1010,KEL012,event_opportunity,near_Homegrown Festival W,2.05,1.43,2024-06-30
+325,1010,KEL013,event_opportunity,near_Homegrown Festival W,0.0,0.0,2024-06-30
+326,1010,KEL014,promotion_execution,missing_display,8.94,7.6,2024-06-30
+327,1010,KEL014,event_opportunity,near_Homegrown Festival W,8.94,6.26,2024-06-30
+328,1010,KEL015,event_opportunity,near_Homegrown Festival W,1.57,1.1,2024-06-30
+329,1010,KEL016,shelf_compliance,low_shelf_facings,13.78,10.33,2024-06-30
+330,1010,KEL016,event_opportunity,near_Homegrown Festival W,13.78,9.65,2024-06-30
+331,1010,KEL017,out_of_stock,product_oos,64.52,64.52,2024-06-30
+332,1010,KEL017,shelf_compliance,low_shelf_facings,64.52,48.39,2024-06-30
+333,1010,KEL017,event_opportunity,near_Homegrown Festival W,64.52,45.16,2024-06-30
+334,1010,KEL018,event_opportunity,near_Homegrown Festival W,6.52,4.56,2024-06-30
+335,1010,KEL019,out_of_stock,product_oos,35.91,35.91,2024-06-30
+336,1010,KEL019,promotion_execution,missing_display,35.91,30.52,2024-06-30
+337,1010,KEL019,event_opportunity,near_Homegrown Festival W,35.91,25.14,2024-06-30
+338,1010,KEL020,out_of_stock,product_oos,65.15,65.15,2024-06-30
+339,1010,KEL020,event_opportunity,near_Homegrown Festival W,65.15,45.61,2024-06-30
+340,1011,KEL001,shelf_compliance,low_shelf_facings,13.51,10.13,2024-06-30
+341,1011,KEL001,event_opportunity,near_Homegrown Festival W,13.51,9.46,2024-06-30
+342,1011,KEL002,shelf_compliance,low_shelf_facings,5.81,4.36,2024-06-30
+343,1011,KEL002,event_opportunity,near_Homegrown Festival W,5.81,4.07,2024-06-30
+344,1011,KEL003,shelf_compliance,low_shelf_facings,13.37,10.03,2024-06-30
+345,1011,KEL003,promotion_execution,missing_display,13.37,11.36,2024-06-30
+346,1011,KEL003,event_opportunity,near_Homegrown Festival W,13.37,9.36,2024-06-30
+347,1011,KEL004,event_opportunity,near_Homegrown Festival W,5.81,4.07,2024-06-30
+348,1011,KEL005,event_opportunity,near_Homegrown Festival W,1.92,1.34,2024-06-30
+349,1011,KEL006,shelf_compliance,low_shelf_facings,19.35,14.51,2024-06-30
+350,1011,KEL006,promotion_execution,missing_display,19.35,16.45,2024-06-30
+351,1011,KEL006,event_opportunity,near_Homegrown Festival W,19.35,13.54,2024-06-30
+352,1011,KEL007,event_opportunity,near_Homegrown Festival W,0.0,0.0,2024-06-30
+353,1011,KEL008,event_opportunity,near_Homegrown Festival W,5.81,4.07,2024-06-30
+354,1011,KEL009,event_opportunity,near_Homegrown Festival W,17.32,12.12,2024-06-30
+355,1011,KEL010,event_opportunity,near_Homegrown Festival W,0.31,0.22,2024-06-30
+356,1011,KEL011,promotion_execution,missing_display,3.84,3.26,2024-06-30
+357,1011,KEL011,event_opportunity,near_Homegrown Festival W,3.84,2.69,2024-06-30
+358,1011,KEL012,event_opportunity,near_Homegrown Festival W,5.04,3.53,2024-06-30
+359,1011,KEL013,event_opportunity,near_Homegrown Festival W,0.0,0.0,2024-06-30
+360,1011,KEL014,event_opportunity,near_Homegrown Festival W,0.36,0.25,2024-06-30
+361,1011,KEL015,event_opportunity,near_Homegrown Festival W,11.31,7.92,2024-06-30
+362,1011,KEL016,shelf_compliance,low_shelf_facings,11.63,8.72,2024-06-30
+363,1011,KEL016,promotion_execution,missing_display,11.63,9.89,2024-06-30
+364,1011,KEL016,event_opportunity,near_Homegrown Festival W,11.63,8.14,2024-06-30
+365,1011,KEL017,promotion_execution,missing_display,6.57,5.58,2024-06-30
+366,1011,KEL017,event_opportunity,near_Homegrown Festival W,6.57,4.6,2024-06-30
+367,1011,KEL018,promotion_execution,missing_display,1.94,1.65,2024-06-30
+368,1011,KEL018,event_opportunity,near_Homegrown Festival W,1.94,1.36,2024-06-30
+369,1011,KEL019,promotion_execution,missing_display,6.62,5.63,2024-06-30
+370,1011,KEL019,event_opportunity,near_Homegrown Festival W,6.62,4.63,2024-06-30
+371,1011,KEL020,shelf_compliance,low_shelf_facings,12.72,9.54,2024-06-30
+372,1011,KEL020,promotion_execution,missing_display,12.72,10.81,2024-06-30
+373,1011,KEL020,event_opportunity,near_Homegrown Festival W,12.72,8.9,2024-06-30
+374,1012,KEL001,event_opportunity,near_ASB Classic Tennis A,11.25,7.87,2024-06-30
+375,1012,KEL002,event_opportunity,near_ASB Classic Tennis A,3.23,2.26,2024-06-30
+376,1012,KEL003,shelf_compliance,low_shelf_facings,9.35,7.01,2024-06-30
+377,1012,KEL003,promotion_execution,missing_display,9.35,7.95,2024-06-30
+378,1012,KEL003,event_opportunity,near_ASB Classic Tennis A,9.35,6.54,2024-06-30
+379,1012,KEL004,event_opportunity,near_ASB Classic Tennis A,3.23,2.26,2024-06-30
+380,1012,KEL005,event_opportunity,near_ASB Classic Tennis A,0.27,0.19,2024-06-30
+381,1012,KEL006,shelf_compliance,low_shelf_facings,15.21,11.41,2024-06-30
+382,1012,KEL006,event_opportunity,near_ASB Classic Tennis A,15.21,10.65,2024-06-30
+383,1012,KEL007,event_opportunity,near_ASB Classic Tennis A,7.07,4.95,2024-06-30
+384,1012,KEL008,promotion_execution,missing_display,5.69,4.84,2024-06-30
+385,1012,KEL008,event_opportunity,near_ASB Classic Tennis A,5.69,3.98,2024-06-30
+386,1012,KEL009,out_of_stock,product_oos,45.11,45.11,2024-06-30
+387,1012,KEL009,event_opportunity,near_ASB Classic Tennis A,45.11,31.58,2024-06-30
+388,1012,KEL010,event_opportunity,near_ASB Classic Tennis A,2.87,2.01,2024-06-30
+389,1012,KEL011,event_opportunity,near_ASB Classic Tennis A,2.96,2.07,2024-06-30
+390,1012,KEL012,event_opportunity,near_ASB Classic Tennis A,8.18,5.73,2024-06-30
+391,1012,KEL013,out_of_stock,product_oos,48.58,48.58,2024-06-30
+392,1012,KEL013,event_opportunity,near_ASB Classic Tennis A,48.58,34.01,2024-06-30
+393,1012,KEL014,event_opportunity,near_ASB Classic Tennis A,10.51,7.36,2024-06-30
+394,1012,KEL015,event_opportunity,near_ASB Classic Tennis A,4.67,3.27,2024-06-30
+395,1012,KEL016,event_opportunity,near_ASB Classic Tennis A,4.13,2.89,2024-06-30
+396,1012,KEL017,event_opportunity,near_ASB Classic Tennis A,0.0,0.0,2024-06-30
+397,1012,KEL018,promotion_execution,missing_display,0.75,0.64,2024-06-30
+398,1012,KEL018,event_opportunity,near_ASB Classic Tennis A,0.75,0.52,2024-06-30
+399,1012,KEL019,promotion_execution,missing_display,6.13,5.21,2024-06-30
+400,1012,KEL019,event_opportunity,near_ASB Classic Tennis A,6.13,4.29,2024-06-30
+401,1012,KEL020,event_opportunity,near_ASB Classic Tennis A,4.82,3.37,2024-06-30
+402,1013,KEL001,event_opportunity,near_Napier Art Deco Fest,0.0,0.0,2024-06-30
+403,1013,KEL002,event_opportunity,near_Napier Art Deco Fest,4.49,3.14,2024-06-30
+404,1013,KEL003,event_opportunity,near_Napier Art Deco Fest,1.49,1.04,2024-06-30
+405,1013,KEL004,event_opportunity,near_Napier Art Deco Fest,4.49,3.14,2024-06-30
+406,1013,KEL005,event_opportunity,near_Napier Art Deco Fest,0.0,0.0,2024-06-30
+407,1013,KEL006,event_opportunity,near_Napier Art Deco Fest,4.49,3.14,2024-06-30
+408,1013,KEL007,shelf_compliance,low_shelf_facings,4.02,3.01,2024-06-30
+409,1013,KEL007,event_opportunity,near_Napier Art Deco Fest,4.02,2.81,2024-06-30
+410,1013,KEL008,shelf_compliance,low_shelf_facings,1.74,1.3,2024-06-30
+411,1013,KEL008,promotion_execution,missing_display,1.74,1.48,2024-06-30
+412,1013,KEL008,event_opportunity,near_Napier Art Deco Fest,1.74,1.22,2024-06-30
+413,1013,KEL009,shelf_compliance,low_shelf_facings,0.85,0.64,2024-06-30
+414,1013,KEL009,promotion_execution,missing_display,0.85,0.72,2024-06-30
+415,1013,KEL009,event_opportunity,near_Napier Art Deco Fest,0.85,0.59,2024-06-30
+416,1013,KEL010,event_opportunity,near_Napier Art Deco Fest,0.0,0.0,2024-06-30
+417,1013,KEL011,promotion_execution,missing_display,0.27,0.23,2024-06-30
+418,1013,KEL011,event_opportunity,near_Napier Art Deco Fest,0.27,0.19,2024-06-30
+419,1013,KEL012,event_opportunity,near_Napier Art Deco Fest,0.35,0.24,2024-06-30
+420,1013,KEL013,shelf_compliance,low_shelf_facings,2.11,1.58,2024-06-30
+421,1013,KEL013,event_opportunity,near_Napier Art Deco Fest,2.11,1.48,2024-06-30
+422,1013,KEL014,promotion_execution,missing_display,2.78,2.36,2024-06-30
+423,1013,KEL014,event_opportunity,near_Napier Art Deco Fest,2.78,1.95,2024-06-30
+424,1013,KEL015,out_of_stock,product_oos,15.71,15.71,2024-06-30
+425,1013,KEL015,event_opportunity,near_Napier Art Deco Fest,15.71,11.0,2024-06-30
+426,1013,KEL016,event_opportunity,near_Napier Art Deco Fest,0.0,0.0,2024-06-30
+427,1013,KEL017,event_opportunity,near_Napier Art Deco Fest,2.38,1.67,2024-06-30
+428,1013,KEL018,out_of_stock,product_oos,8.85,8.85,2024-06-30
+429,1013,KEL018,promotion_execution,missing_display,8.85,7.52,2024-06-30
+430,1013,KEL018,event_opportunity,near_Napier Art Deco Fest,8.85,6.19,2024-06-30
+431,1013,KEL019,shelf_compliance,low_shelf_facings,2.19,1.64,2024-06-30
+432,1013,KEL019,promotion_execution,missing_display,2.19,1.86,2024-06-30
+433,1013,KEL019,event_opportunity,near_Napier Art Deco Fest,2.19,1.53,2024-06-30
+434,1013,KEL020,shelf_compliance,low_shelf_facings,0.63,0.47,2024-06-30
+435,1013,KEL020,promotion_execution,missing_display,0.63,0.54,2024-06-30
+436,1013,KEL020,event_opportunity,near_Napier Art Deco Fest,0.63,0.44,2024-06-30
+437,1014,KEL001,event_opportunity,near_Rotorua Marathon,4.34,3.04,2024-06-30
+438,1014,KEL002,event_opportunity,near_Rotorua Marathon,2.94,2.06,2024-06-30
+439,1014,KEL003,event_opportunity,near_Rotorua Marathon,0.0,0.0,2024-06-30
+440,1014,KEL004,event_opportunity,near_Rotorua Marathon,2.94,2.06,2024-06-30
+441,1014,KEL005,event_opportunity,near_Rotorua Marathon,0.0,0.0,2024-06-30
+442,1014,KEL006,shelf_compliance,low_shelf_facings,12.22,9.17,2024-06-30
+443,1014,KEL006,event_opportunity,near_Rotorua Marathon,12.22,8.55,2024-06-30
+444,1014,KEL007,out_of_stock,product_oos,33.94,33.94,2024-06-30
+445,1014,KEL007,shelf_compliance,low_shelf_facings,33.94,25.45,2024-06-30
+446,1014,KEL007,event_opportunity,near_Rotorua Marathon,33.94,23.76,2024-06-30
+447,1014,KEL008,event_opportunity,near_Rotorua Marathon,0.0,0.0,2024-06-30
+448,1014,KEL009,event_opportunity,near_Rotorua Marathon,1.05,0.73,2024-06-30
+449,1014,KEL010,event_opportunity,near_Rotorua Marathon,0.0,0.0,2024-06-30
+450,1014,KEL011,event_opportunity,near_Rotorua Marathon,7.58,5.31,2024-06-30
+451,1014,KEL012,event_opportunity,near_Rotorua Marathon,7.88,5.52,2024-06-30
+452,1014,KEL013,event_opportunity,near_Rotorua Marathon,3.68,2.58,2024-06-30
+453,1014,KEL014,shelf_compliance,low_shelf_facings,4.58,3.44,2024-06-30
+454,1014,KEL014,promotion_execution,missing_display,4.58,3.89,2024-06-30
+455,1014,KEL014,event_opportunity,near_Rotorua Marathon,4.58,3.21,2024-06-30
+456,1014,KEL015,event_opportunity,near_Rotorua Marathon,0.0,0.0,2024-06-30
+457,1014,KEL016,event_opportunity,near_Rotorua Marathon,0.0,0.0,2024-06-30
+458,1014,KEL017,event_opportunity,near_Rotorua Marathon,3.08,2.16,2024-06-30
+459,1014,KEL018,out_of_stock,product_oos,17.64,17.64,2024-06-30
+460,1014,KEL018,shelf_compliance,low_shelf_facings,17.64,13.23,2024-06-30
+461,1014,KEL018,promotion_execution,missing_display,17.64,14.99,2024-06-30
+462,1014,KEL018,event_opportunity,near_Rotorua Marathon,17.64,12.35,2024-06-30
+463,1014,KEL019,shelf_compliance,low_shelf_facings,4.36,3.27,2024-06-30
+464,1014,KEL019,promotion_execution,missing_display,4.36,3.71,2024-06-30
+465,1014,KEL019,event_opportunity,near_Rotorua Marathon,4.36,3.05,2024-06-30
+466,1014,KEL020,event_opportunity,near_Rotorua Marathon,0.07,0.05,2024-06-30
+467,1015,KEL001,event_opportunity,near_ASB Classic Tennis A,0.0,0.0,2024-06-30
+468,1015,KEL002,event_opportunity,near_ASB Classic Tennis A,2.46,1.72,2024-06-30
+469,1015,KEL003,promotion_execution,missing_display,4.41,3.75,2024-06-30
+470,1015,KEL003,event_opportunity,near_ASB Classic Tennis A,4.41,3.09,2024-06-30
+471,1015,KEL004,event_opportunity,near_ASB Classic Tennis A,0.0,0.0,2024-06-30
+472,1015,KEL005,event_opportunity,near_ASB Classic Tennis A,0.0,0.0,2024-06-30
+473,1015,KEL006,event_opportunity,near_ASB Classic Tennis A,8.45,5.91,2024-06-30
+474,1015,KEL007,event_opportunity,near_ASB Classic Tennis A,0.13,0.09,2024-06-30
+475,1015,KEL008,event_opportunity,near_ASB Classic Tennis A,0.0,0.0,2024-06-30
+476,1015,KEL009,promotion_execution,missing_display,3.24,2.75,2024-06-30
+477,1015,KEL009,event_opportunity,near_ASB Classic Tennis A,3.24,2.27,2024-06-30
+478,1015,KEL010,event_opportunity,near_ASB Classic Tennis A,2.25,1.57,2024-06-30
+479,1015,KEL011,promotion_execution,missing_display,1.54,1.31,2024-06-30
+480,1015,KEL011,event_opportunity,near_ASB Classic Tennis A,1.54,1.08,2024-06-30
+481,1015,KEL012,event_opportunity,near_ASB Classic Tennis A,6.94,4.86,2024-06-30
+482,1015,KEL013,event_opportunity,near_ASB Classic Tennis A,1.35,0.94,2024-06-30
+483,1015,KEL014,event_opportunity,near_ASB Classic Tennis A,4.22,2.95,2024-06-30
+484,1015,KEL015,event_opportunity,near_ASB Classic Tennis A,4.09,2.86,2024-06-30
+485,1015,KEL016,event_opportunity,near_ASB Classic Tennis A,0.18,0.13,2024-06-30
+486,1015,KEL017,shelf_compliance,low_shelf_facings,12.86,9.64,2024-06-30
+487,1015,KEL017,promotion_execution,missing_display,12.86,10.93,2024-06-30
+488,1015,KEL017,event_opportunity,near_ASB Classic Tennis A,12.86,9.0,2024-06-30
+489,1015,KEL018,event_opportunity,near_ASB Classic Tennis A,2.54,1.78,2024-06-30
+490,1015,KEL019,event_opportunity,near_ASB Classic Tennis A,0.0,0.0,2024-06-30
+491,1015,KEL020,shelf_compliance,low_shelf_facings,2.73,2.05,2024-06-30
+492,1015,KEL020,promotion_execution,missing_display,2.73,2.32,2024-06-30
+493,1015,KEL020,event_opportunity,near_ASB Classic Tennis A,2.73,1.91,2024-06-30
+494,1016,KEL001,event_opportunity,near_Nelson Jazz Festival,0.33,0.23,2024-06-30
+495,1016,KEL002,shelf_compliance,low_shelf_facings,4.73,3.55,2024-06-30
+496,1016,KEL002,promotion_execution,missing_display,4.73,4.02,2024-06-30
+497,1016,KEL002,event_opportunity,near_Nelson Jazz Festival,4.73,3.31,2024-06-30
+498,1016,KEL003,event_opportunity,near_Nelson Jazz Festival,0.0,0.0,2024-06-30
+499,1016,KEL004,event_opportunity,near_Nelson Jazz Festival,0.0,0.0,2024-06-30
+500,1016,KEL005,event_opportunity,near_Nelson Jazz Festival,0.33,0.23,2024-06-30
+501,1016,KEL006,event_opportunity,near_Nelson Jazz Festival,0.0,0.0,2024-06-30
+502,1016,KEL007,event_opportunity,near_Nelson Jazz Festival,0.0,0.0,2024-06-30
+503,1016,KEL008,event_opportunity,near_Nelson Jazz Festival,4.49,3.14,2024-06-30
+504,1016,KEL009,shelf_compliance,low_shelf_facings,7.24,5.43,2024-06-30
+505,1016,KEL009,event_opportunity,near_Nelson Jazz Festival,7.24,5.07,2024-06-30
+506,1016,KEL010,event_opportunity,near_Nelson Jazz Festival,3.64,2.55,2024-06-30
+507,1016,KEL011,event_opportunity,near_Nelson Jazz Festival,0.82,0.57,2024-06-30
+508,1016,KEL012,event_opportunity,near_Nelson Jazz Festival,0.0,0.0,2024-06-30
+509,1016,KEL013,event_opportunity,near_Nelson Jazz Festival,4.89,3.42,2024-06-30
+510,1016,KEL014,shelf_compliance,low_shelf_facings,4.0,3.0,2024-06-30
+511,1016,KEL014,event_opportunity,near_Nelson Jazz Festival,4.0,2.8,2024-06-30
+512,1016,KEL015,shelf_compliance,low_shelf_facings,5.39,4.04,2024-06-30
+513,1016,KEL015,promotion_execution,missing_display,5.39,4.58,2024-06-30
+514,1016,KEL015,event_opportunity,near_Nelson Jazz Festival,5.39,3.77,2024-06-30
+515,1016,KEL016,shelf_compliance,low_shelf_facings,9.79,7.34,2024-06-30
+516,1016,KEL016,promotion_execution,missing_display,9.79,8.32,2024-06-30
+517,1016,KEL016,event_opportunity,near_Nelson Jazz Festival,9.79,6.85,2024-06-30
+518,1016,KEL017,event_opportunity,near_Nelson Jazz Festival,0.77,0.54,2024-06-30
+519,1016,KEL018,shelf_compliance,low_shelf_facings,0.54,0.41,2024-06-30
+520,1016,KEL018,promotion_execution,missing_display,0.54,0.46,2024-06-30
+521,1016,KEL018,event_opportunity,near_Nelson Jazz Festival,0.54,0.38,2024-06-30
+522,1016,KEL019,event_opportunity,near_Nelson Jazz Festival,0.0,0.0,2024-06-30
+523,1016,KEL020,event_opportunity,near_Nelson Jazz Festival,1.68,1.18,2024-06-30
+524,1017,KEL001,event_opportunity,near_ASB Classic Tennis A,0.0,0.0,2024-06-30
+525,1017,KEL002,event_opportunity,near_ASB Classic Tennis A,12.64,8.85,2024-06-30
+526,1017,KEL003,out_of_stock,product_oos,35.57,35.57,2024-06-30
+527,1017,KEL003,shelf_compliance,low_shelf_facings,35.57,26.68,2024-06-30
+528,1017,KEL003,promotion_execution,missing_display,35.57,30.23,2024-06-30
+529,1017,KEL003,event_opportunity,near_ASB Classic Tennis A,35.57,24.9,2024-06-30
+530,1017,KEL004,event_opportunity,near_ASB Classic Tennis A,6.65,4.66,2024-06-30
+531,1017,KEL005,out_of_stock,product_oos,56.33,56.33,2024-06-30
+532,1017,KEL005,event_opportunity,near_ASB Classic Tennis A,56.33,39.43,2024-06-30
+533,1017,KEL006,promotion_execution,missing_display,4.55,3.87,2024-06-30
+534,1017,KEL006,event_opportunity,near_ASB Classic Tennis A,4.55,3.18,2024-06-30
+535,1017,KEL007,event_opportunity,near_ASB Classic Tennis A,0.0,0.0,2024-06-30
+536,1017,KEL008,event_opportunity,near_ASB Classic Tennis A,0.0,0.0,2024-06-30
+537,1017,KEL009,event_opportunity,near_ASB Classic Tennis A,3.44,2.41,2024-06-30
+538,1017,KEL010,promotion_execution,missing_display,3.73,3.17,2024-06-30
+539,1017,KEL010,event_opportunity,near_ASB Classic Tennis A,3.73,2.61,2024-06-30
+540,1017,KEL011,out_of_stock,product_oos,33.21,33.21,2024-06-30
+541,1017,KEL011,shelf_compliance,low_shelf_facings,33.21,24.91,2024-06-30
+542,1017,KEL011,promotion_execution,missing_display,33.21,28.23,2024-06-30
+543,1017,KEL011,event_opportunity,near_ASB Classic Tennis A,33.21,23.25,2024-06-30
+544,1017,KEL012,promotion_execution,missing_display,2.79,2.37,2024-06-30
+545,1017,KEL012,event_opportunity,near_ASB Classic Tennis A,2.79,1.95,2024-06-30
+546,1017,KEL013,promotion_execution,missing_display,6.38,5.42,2024-06-30
+547,1017,KEL013,event_opportunity,near_ASB Classic Tennis A,6.38,4.47,2024-06-30
+548,1017,KEL014,event_opportunity,near_ASB Classic Tennis A,5.75,4.02,2024-06-30
+549,1017,KEL015,event_opportunity,near_ASB Classic Tennis A,5.25,3.67,2024-06-30
+550,1017,KEL016,shelf_compliance,low_shelf_facings,9.11,6.83,2024-06-30
+551,1017,KEL016,promotion_execution,missing_display,9.11,7.74,2024-06-30
+552,1017,KEL016,event_opportunity,near_ASB Classic Tennis A,9.11,6.38,2024-06-30
+553,1017,KEL017,out_of_stock,product_oos,40.75,40.75,2024-06-30
+554,1017,KEL017,shelf_compliance,low_shelf_facings,40.75,30.56,2024-06-30
+555,1017,KEL017,promotion_execution,missing_display,40.75,34.64,2024-06-30
+556,1017,KEL017,event_opportunity,near_ASB Classic Tennis A,40.75,28.52,2024-06-30
+557,1017,KEL018,out_of_stock,product_oos,26.07,26.07,2024-06-30
+558,1017,KEL018,shelf_compliance,low_shelf_facings,26.07,19.55,2024-06-30
+559,1017,KEL018,promotion_execution,missing_display,26.07,22.16,2024-06-30
+560,1017,KEL018,event_opportunity,near_ASB Classic Tennis A,26.07,18.25,2024-06-30
+561,1017,KEL019,shelf_compliance,low_shelf_facings,4.31,3.23,2024-06-30
+562,1017,KEL019,event_opportunity,near_ASB Classic Tennis A,4.31,3.02,2024-06-30
+563,1017,KEL020,event_opportunity,near_ASB Classic Tennis A,2.73,1.91,2024-06-30
+564,1018,KEL001,shelf_compliance,low_shelf_facings,7.74,5.8,2024-06-30
+565,1018,KEL001,event_opportunity,near_ASB Classic Tennis A,7.74,5.42,2024-06-30
+566,1018,KEL002,out_of_stock,product_oos,35.1,35.1,2024-06-30
+567,1018,KEL002,shelf_compliance,low_shelf_facings,35.1,26.33,2024-06-30
+568,1018,KEL002,promotion_execution,missing_display,35.1,29.84,2024-06-30
+569,1018,KEL002,event_opportunity,near_ASB Classic Tennis A,35.1,24.57,2024-06-30
+570,1018,KEL003,shelf_compliance,low_shelf_facings,4.54,3.41,2024-06-30
+571,1018,KEL003,event_opportunity,near_ASB Classic Tennis A,4.54,3.18,2024-06-30
+572,1018,KEL004,promotion_execution,missing_display,5.15,4.38,2024-06-30
+573,1018,KEL004,event_opportunity,near_ASB Classic Tennis A,5.15,3.6,2024-06-30
+574,1018,KEL005,shelf_compliance,low_shelf_facings,6.48,4.86,2024-06-30
+575,1018,KEL005,promotion_execution,missing_display,6.48,5.51,2024-06-30
+576,1018,KEL005,event_opportunity,near_ASB Classic Tennis A,6.48,4.54,2024-06-30
+577,1018,KEL006,shelf_compliance,low_shelf_facings,11.14,8.36,2024-06-30
+578,1018,KEL006,promotion_execution,missing_display,11.14,9.47,2024-06-30
+579,1018,KEL006,event_opportunity,near_ASB Classic Tennis A,11.14,7.8,2024-06-30
+580,1018,KEL007,shelf_compliance,low_shelf_facings,10.32,7.74,2024-06-30
+581,1018,KEL007,promotion_execution,missing_display,10.32,8.77,2024-06-30
+582,1018,KEL007,event_opportunity,near_ASB Classic Tennis A,10.32,7.22,2024-06-30
+583,1018,KEL008,shelf_compliance,low_shelf_facings,5.15,3.86,2024-06-30
+584,1018,KEL008,promotion_execution,missing_display,5.15,4.38,2024-06-30
+585,1018,KEL008,event_opportunity,near_ASB Classic Tennis A,5.15,3.6,2024-06-30
+586,1018,KEL009,shelf_compliance,low_shelf_facings,8.33,6.25,2024-06-30
+587,1018,KEL009,event_opportunity,near_ASB Classic Tennis A,8.33,5.83,2024-06-30
+588,1018,KEL010,promotion_execution,missing_display,4.13,3.51,2024-06-30
+589,1018,KEL010,event_opportunity,near_ASB Classic Tennis A,4.13,2.89,2024-06-30
+590,1018,KEL011,event_opportunity,near_ASB Classic Tennis A,1.65,1.15,2024-06-30
+591,1018,KEL012,event_opportunity,near_ASB Classic Tennis A,0.0,0.0,2024-06-30
+592,1018,KEL013,promotion_execution,missing_display,5.93,5.04,2024-06-30
+593,1018,KEL013,event_opportunity,near_ASB Classic Tennis A,5.93,4.15,2024-06-30
+594,1018,KEL014,promotion_execution,missing_display,6.02,5.12,2024-06-30
+595,1018,KEL014,event_opportunity,near_ASB Classic Tennis A,6.02,4.21,2024-06-30
+596,1018,KEL015,shelf_compliance,low_shelf_facings,5.25,3.94,2024-06-30
+597,1018,KEL015,event_opportunity,near_ASB Classic Tennis A,5.25,3.67,2024-06-30
+598,1018,KEL016,event_opportunity,near_ASB Classic Tennis A,13.02,9.11,2024-06-30
+599,1018,KEL017,shelf_compliance,low_shelf_facings,10.83,8.12,2024-06-30
+600,1018,KEL017,promotion_execution,missing_display,10.83,9.21,2024-06-30
+601,1018,KEL017,event_opportunity,near_ASB Classic Tennis A,10.83,7.58,2024-06-30
+602,1018,KEL018,event_opportunity,near_ASB Classic Tennis A,3.2,2.24,2024-06-30
+603,1018,KEL019,event_opportunity,near_ASB Classic Tennis A,2.27,1.59,2024-06-30
+604,1018,KEL020,event_opportunity,near_ASB Classic Tennis A,2.87,2.01,2024-06-30
+605,1019,KEL001,promotion_execution,missing_display,0.0,0.0,2024-06-30
+606,1019,KEL001,event_opportunity,near_Napier Art Deco Fest,0.0,0.0,2024-06-30
+607,1019,KEL002,out_of_stock,product_oos,30.49,30.49,2024-06-30
+608,1019,KEL002,shelf_compliance,low_shelf_facings,30.49,22.87,2024-06-30
+609,1019,KEL002,event_opportunity,near_Napier Art Deco Fest,30.49,21.34,2024-06-30
+610,1019,KEL003,event_opportunity,near_Napier Art Deco Fest,0.84,0.59,2024-06-30
+611,1019,KEL004,event_opportunity,near_Napier Art Deco Fest,0.54,0.38,2024-06-30
+612,1019,KEL005,event_opportunity,near_Napier Art Deco Fest,0.0,0.0,2024-06-30
+613,1019,KEL006,event_opportunity,near_Napier Art Deco Fest,0.54,0.38,2024-06-30
+614,1019,KEL007,event_opportunity,near_Napier Art Deco Fest,0.0,0.0,2024-06-30
+615,1019,KEL008,event_opportunity,near_Napier Art Deco Fest,0.54,0.38,2024-06-30
+616,1019,KEL009,shelf_compliance,low_shelf_facings,5.14,3.85,2024-06-30
+617,1019,KEL009,promotion_execution,missing_display,5.14,4.37,2024-06-30
+618,1019,KEL009,event_opportunity,near_Napier Art Deco Fest,5.14,3.6,2024-06-30
+619,1019,KEL010,event_opportunity,near_Napier Art Deco Fest,0.67,0.47,2024-06-30
+620,1019,KEL011,promotion_execution,missing_display,0.0,0.0,2024-06-30
+621,1019,KEL011,event_opportunity,near_Napier Art Deco Fest,0.0,0.0,2024-06-30
+622,1019,KEL012,event_opportunity,near_Napier Art Deco Fest,3.44,2.41,2024-06-30
+623,1019,KEL013,event_opportunity,near_Napier Art Deco Fest,0.0,0.0,2024-06-30
+624,1019,KEL014,out_of_stock,product_oos,29.32,29.32,2024-06-30
+625,1019,KEL014,event_opportunity,near_Napier Art Deco Fest,29.32,20.52,2024-06-30
+626,1019,KEL015,event_opportunity,near_Napier Art Deco Fest,1.03,0.72,2024-06-30
+627,1019,KEL016,shelf_compliance,low_shelf_facings,4.49,3.37,2024-06-30
+628,1019,KEL016,event_opportunity,near_Napier Art Deco Fest,4.49,3.14,2024-06-30
+629,1019,KEL017,event_opportunity,near_Napier Art Deco Fest,0.21,0.15,2024-06-30
+630,1019,KEL018,event_opportunity,near_Napier Art Deco Fest,1.7,1.19,2024-06-30
+631,1019,KEL019,shelf_compliance,low_shelf_facings,5.45,4.09,2024-06-30
+632,1019,KEL019,promotion_execution,missing_display,5.45,4.63,2024-06-30
+633,1019,KEL019,event_opportunity,near_Napier Art Deco Fest,5.45,3.81,2024-06-30
+634,1019,KEL020,event_opportunity,near_Napier Art Deco Fest,0.0,0.0,2024-06-30
+635,1020,KEL001,out_of_stock,product_oos,56.82,56.82,2024-06-30
+636,1020,KEL001,shelf_compliance,low_shelf_facings,56.82,42.62,2024-06-30
+637,1020,KEL001,event_opportunity,near_Homegrown Festival W,56.82,39.77,2024-06-30
+638,1020,KEL002,event_opportunity,near_Homegrown Festival W,0.0,0.0,2024-06-30
+639,1020,KEL003,event_opportunity,near_Homegrown Festival W,6.23,4.36,2024-06-30
+640,1020,KEL004,out_of_stock,product_oos,58.82,58.82,2024-06-30
+641,1020,KEL004,event_opportunity,near_Homegrown Festival W,58.82,41.17,2024-06-30
+642,1020,KEL005,event_opportunity,near_Homegrown Festival W,12.9,9.03,2024-06-30
+643,1020,KEL006,shelf_compliance,low_shelf_facings,13.12,9.84,2024-06-30
+644,1020,KEL006,promotion_execution,missing_display,13.12,11.15,2024-06-30
+645,1020,KEL006,event_opportunity,near_Homegrown Festival W,13.12,9.18,2024-06-30
+646,1020,KEL007,event_opportunity,near_Homegrown Festival W,8.83,6.18,2024-06-30
+647,1020,KEL008,out_of_stock,product_oos,58.82,58.82,2024-06-30
+648,1020,KEL008,event_opportunity,near_Homegrown Festival W,58.82,41.17,2024-06-30
+649,1020,KEL009,event_opportunity,near_Homegrown Festival W,1.6,1.12,2024-06-30
+650,1020,KEL010,event_opportunity,near_Homegrown Festival W,4.18,2.93,2024-06-30
+651,1020,KEL011,event_opportunity,near_Homegrown Festival W,0.0,0.0,2024-06-30
+652,1020,KEL012,event_opportunity,near_Homegrown Festival W,4.79,3.35,2024-06-30
+653,1020,KEL013,shelf_compliance,low_shelf_facings,15.4,11.55,2024-06-30
+654,1020,KEL013,promotion_execution,missing_display,15.4,13.09,2024-06-30
+655,1020,KEL013,event_opportunity,near_Homegrown Festival W,15.4,10.78,2024-06-30
+656,1020,KEL014,event_opportunity,near_Homegrown Festival W,4.22,2.95,2024-06-30
+657,1020,KEL015,event_opportunity,near_Homegrown Festival W,0.0,0.0,2024-06-30
+658,1020,KEL016,shelf_compliance,low_shelf_facings,18.32,13.74,2024-06-30
+659,1020,KEL016,promotion_execution,missing_display,18.32,15.57,2024-06-30
+660,1020,KEL016,event_opportunity,near_Homegrown Festival W,18.32,12.82,2024-06-30
+661,1020,KEL017,out_of_stock,product_oos,50.68,50.68,2024-06-30
+662,1020,KEL017,shelf_compliance,low_shelf_facings,50.68,38.01,2024-06-30
+663,1020,KEL017,promotion_execution,missing_display,50.68,43.08,2024-06-30
+664,1020,KEL017,event_opportunity,near_Homegrown Festival W,50.68,35.48,2024-06-30
+665,1020,KEL018,event_opportunity,near_Homegrown Festival W,4.99,3.49,2024-06-30
+666,1020,KEL019,event_opportunity,near_Homegrown Festival W,6.57,4.6,2024-06-30
+667,1020,KEL020,event_opportunity,near_Homegrown Festival W,0.0,0.0,2024-06-30
+668,1021,KEL001,shelf_compliance,low_shelf_facings,4.56,3.42,2024-06-30
+669,1021,KEL001,event_opportunity,near_Rotorua Marathon,4.56,3.19,2024-06-30
+670,1021,KEL002,event_opportunity,near_Rotorua Marathon,8.87,6.21,2024-06-30
+671,1021,KEL003,event_opportunity,near_Rotorua Marathon,8.11,5.68,2024-06-30
+672,1021,KEL004,event_opportunity,near_Rotorua Marathon,0.0,0.0,2024-06-30
+673,1021,KEL005,shelf_compliance,low_shelf_facings,10.05,7.54,2024-06-30
+674,1021,KEL005,event_opportunity,near_Rotorua Marathon,10.05,7.04,2024-06-30
+675,1021,KEL006,promotion_execution,missing_display,5.63,4.79,2024-06-30
+676,1021,KEL006,event_opportunity,near_Rotorua Marathon,5.63,3.94,2024-06-30
+677,1021,KEL007,event_opportunity,near_Rotorua Marathon,1.17,0.82,2024-06-30
+678,1021,KEL008,event_opportunity,near_Rotorua Marathon,8.87,6.21,2024-06-30
+679,1021,KEL009,event_opportunity,near_Rotorua Marathon,0.75,0.52,2024-06-30
+680,1021,KEL010,event_opportunity,near_Rotorua Marathon,0.0,0.0,2024-06-30
+681,1021,KEL011,event_opportunity,near_Rotorua Marathon,0.0,0.0,2024-06-30
+682,1021,KEL012,event_opportunity,near_Rotorua Marathon,6.14,4.3,2024-06-30
+683,1021,KEL013,out_of_stock,product_oos,37.72,37.72,2024-06-30
+684,1021,KEL013,shelf_compliance,low_shelf_facings,37.72,28.29,2024-06-30
+685,1021,KEL013,event_opportunity,near_Rotorua Marathon,37.72,26.4,2024-06-30
+686,1021,KEL014,shelf_compliance,low_shelf_facings,10.37,7.78,2024-06-30
+687,1021,KEL014,event_opportunity,near_Rotorua Marathon,10.37,7.26,2024-06-30
+688,1021,KEL015,out_of_stock,product_oos,29.77,29.77,2024-06-30
+689,1021,KEL015,shelf_compliance,low_shelf_facings,29.77,22.33,2024-06-30
+690,1021,KEL015,promotion_execution,missing_display,29.77,25.3,2024-06-30
+691,1021,KEL015,event_opportunity,near_Rotorua Marathon,29.77,20.84,2024-06-30
+692,1021,KEL016,event_opportunity,near_Rotorua Marathon,2.69,1.88,2024-06-30
+693,1021,KEL017,event_opportunity,near_Rotorua Marathon,9.72,6.8,2024-06-30
+694,1021,KEL018,event_opportunity,near_Rotorua Marathon,0.0,0.0,2024-06-30
+695,1021,KEL019,event_opportunity,near_Rotorua Marathon,2.42,1.69,2024-06-30
+696,1021,KEL020,promotion_execution,missing_display,0.0,0.0,2024-06-30
+697,1021,KEL020,event_opportunity,near_Rotorua Marathon,0.0,0.0,2024-06-30
+698,1022,KEL004,promotion_execution,missing_display,2.16,1.84,2024-06-30
+699,1022,KEL007,out_of_stock,product_oos,51.73,51.73,2024-06-30
+700,1022,KEL007,shelf_compliance,low_shelf_facings,51.73,38.8,2024-06-30
+701,1022,KEL007,promotion_execution,missing_display,51.73,43.97,2024-06-30
+702,1022,KEL010,shelf_compliance,low_shelf_facings,2.02,1.52,2024-06-30
+703,1022,KEL010,promotion_execution,missing_display,2.02,1.72,2024-06-30
+704,1022,KEL011,shelf_compliance,low_shelf_facings,13.67,10.25,2024-06-30
+705,1022,KEL011,promotion_execution,missing_display,13.67,11.62,2024-06-30
+706,1022,KEL014,promotion_execution,missing_display,0.0,0.0,2024-06-30
+707,1022,KEL015,out_of_stock,product_oos,46.52,46.52,2024-06-30
+708,1022,KEL015,shelf_compliance,low_shelf_facings,46.52,34.89,2024-06-30
+709,1022,KEL015,promotion_execution,missing_display,46.52,39.54,2024-06-30
+710,1022,KEL019,shelf_compliance,low_shelf_facings,7.84,5.88,2024-06-30
+711,1022,KEL019,promotion_execution,missing_display,7.84,6.66,2024-06-30
+712,1023,KEL001,event_opportunity,near_Homegrown Festival W,0.0,0.0,2024-06-30
+713,1023,KEL002,promotion_execution,missing_display,3.29,2.8,2024-06-30
+714,1023,KEL002,event_opportunity,near_Homegrown Festival W,3.29,2.3,2024-06-30
+715,1023,KEL003,shelf_compliance,low_shelf_facings,7.27,5.45,2024-06-30
+716,1023,KEL003,promotion_execution,missing_display,7.27,6.18,2024-06-30
+717,1023,KEL003,event_opportunity,near_Homegrown Festival W,7.27,5.09,2024-06-30
+718,1023,KEL004,promotion_execution,missing_display,9.28,7.89,2024-06-30
+719,1023,KEL004,event_opportunity,near_Homegrown Festival W,9.28,6.5,2024-06-30
+720,1023,KEL005,event_opportunity,near_Homegrown Festival W,3.02,2.11,2024-06-30
+721,1023,KEL006,event_opportunity,near_Homegrown Festival W,6.35,4.44,2024-06-30
+722,1023,KEL007,event_opportunity,near_Homegrown Festival W,4.15,2.91,2024-06-30
+723,1023,KEL008,event_opportunity,near_Homegrown Festival W,0.36,0.25,2024-06-30
+724,1023,KEL009,shelf_compliance,low_shelf_facings,12.92,9.69,2024-06-30
+725,1023,KEL009,event_opportunity,near_Homegrown Festival W,12.92,9.04,2024-06-30
+726,1023,KEL010,event_opportunity,near_Homegrown Festival W,5.21,3.65,2024-06-30
+727,1023,KEL011,shelf_compliance,low_shelf_facings,11.64,8.73,2024-06-30
+728,1023,KEL011,event_opportunity,near_Homegrown Festival W,11.64,8.15,2024-06-30
+729,1023,KEL012,out_of_stock,product_oos,70.66,70.66,2024-06-30
+730,1023,KEL012,shelf_compliance,low_shelf_facings,70.66,52.99,2024-06-30
+731,1023,KEL012,event_opportunity,near_Homegrown Festival W,70.66,49.46,2024-06-30
+732,1023,KEL013,event_opportunity,near_Homegrown Festival W,0.0,0.0,2024-06-30
+733,1023,KEL014,event_opportunity,near_Homegrown Festival W,1.89,1.32,2024-06-30
+734,1023,KEL015,event_opportunity,near_Homegrown Festival W,7.86,5.5,2024-06-30
+735,1023,KEL016,event_opportunity,near_Homegrown Festival W,4.71,3.3,2024-06-30
+736,1023,KEL017,promotion_execution,missing_display,1.89,1.61,2024-06-30
+737,1023,KEL017,event_opportunity,near_Homegrown Festival W,1.89,1.32,2024-06-30
+738,1023,KEL018,event_opportunity,near_Homegrown Festival W,0.0,0.0,2024-06-30
+739,1023,KEL019,event_opportunity,near_Homegrown Festival W,8.32,5.82,2024-06-30
+740,1023,KEL020,out_of_stock,product_oos,57.74,57.74,2024-06-30
+741,1023,KEL020,event_opportunity,near_Homegrown Festival W,57.74,40.42,2024-06-30
+742,1024,KEL001,event_opportunity,near_Napier Art Deco Fest,4.06,2.84,2024-06-30
+743,1024,KEL002,event_opportunity,near_Napier Art Deco Fest,3.29,2.3,2024-06-30
+744,1024,KEL003,event_opportunity,near_Napier Art Deco Fest,0.0,0.0,2024-06-30
+745,1024,KEL004,event_opportunity,near_Napier Art Deco Fest,0.0,0.0,2024-06-30
+746,1024,KEL005,out_of_stock,product_oos,20.53,20.53,2024-06-30
+747,1024,KEL005,shelf_compliance,low_shelf_facings,20.53,15.4,2024-06-30
+748,1024,KEL005,event_opportunity,near_Napier Art Deco Fest,20.53,14.37,2024-06-30
+749,1024,KEL006,out_of_stock,product_oos,17.73,17.73,2024-06-30
+750,1024,KEL006,shelf_compliance,low_shelf_facings,17.73,13.3,2024-06-30
+751,1024,KEL006,promotion_execution,missing_display,17.73,15.07,2024-06-30
+752,1024,KEL006,event_opportunity,near_Napier Art Deco Fest,17.73,12.41,2024-06-30
+753,1024,KEL007,event_opportunity,near_Napier Art Deco Fest,2.53,1.77,2024-06-30
+754,1024,KEL008,shelf_compliance,low_shelf_facings,5.75,4.31,2024-06-30
+755,1024,KEL008,promotion_execution,missing_display,5.75,4.89,2024-06-30
+756,1024,KEL008,event_opportunity,near_Napier Art Deco Fest,5.75,4.02,2024-06-30
+757,1024,KEL009,event_opportunity,near_Napier Art Deco Fest,1.85,1.29,2024-06-30
+758,1024,KEL010,promotion_execution,missing_display,0.0,0.0,2024-06-30
+759,1024,KEL010,event_opportunity,near_Napier Art Deco Fest,0.0,0.0,2024-06-30
+760,1024,KEL011,event_opportunity,near_Napier Art Deco Fest,0.99,0.69,2024-06-30
+761,1024,KEL012,event_opportunity,near_Napier Art Deco Fest,4.79,3.35,2024-06-30
+762,1024,KEL013,event_opportunity,near_Napier Art Deco Fest,1.98,1.39,2024-06-30
+763,1024,KEL014,promotion_execution,missing_display,1.71,1.45,2024-06-30
+764,1024,KEL014,event_opportunity,near_Napier Art Deco Fest,1.71,1.2,2024-06-30
+765,1024,KEL015,shelf_compliance,low_shelf_facings,6.6,4.95,2024-06-30
+766,1024,KEL015,promotion_execution,missing_display,6.6,5.61,2024-06-30
+767,1024,KEL015,event_opportunity,near_Napier Art Deco Fest,6.6,4.62,2024-06-30
+768,1024,KEL016,event_opportunity,near_Napier Art Deco Fest,0.0,0.0,2024-06-30
+769,1024,KEL017,out_of_stock,product_oos,20.34,20.34,2024-06-30
+770,1024,KEL017,shelf_compliance,low_shelf_facings,20.34,15.25,2024-06-30
+771,1024,KEL017,promotion_execution,missing_display,20.34,17.29,2024-06-30
+772,1024,KEL017,event_opportunity,near_Napier Art Deco Fest,20.34,14.24,2024-06-30
+773,1024,KEL018,out_of_stock,product_oos,11.42,11.42,2024-06-30
+774,1024,KEL018,shelf_compliance,low_shelf_facings,11.42,8.56,2024-06-30
+775,1024,KEL018,promotion_execution,missing_display,11.42,9.71,2024-06-30
+776,1024,KEL018,event_opportunity,near_Napier Art Deco Fest,11.42,7.99,2024-06-30
+777,1024,KEL019,shelf_compliance,low_shelf_facings,5.0,3.75,2024-06-30
+778,1024,KEL019,promotion_execution,missing_display,5.0,4.25,2024-06-30
+779,1024,KEL019,event_opportunity,near_Napier Art Deco Fest,5.0,3.5,2024-06-30
+780,1024,KEL020,event_opportunity,near_Napier Art Deco Fest,1.68,1.18,2024-06-30
+781,1025,KEL001,event_opportunity,near_ASB Classic Tennis A,10.76,7.53,2024-06-30
+782,1025,KEL002,shelf_compliance,low_shelf_facings,14.38,10.79,2024-06-30
+783,1025,KEL002,event_opportunity,near_ASB Classic Tennis A,14.38,10.07,2024-06-30
+784,1025,KEL003,event_opportunity,near_ASB Classic Tennis A,2.79,1.95,2024-06-30
+785,1025,KEL004,event_opportunity,near_ASB Classic Tennis A,0.0,0.0,2024-06-30
+786,1025,KEL005,event_opportunity,near_ASB Classic Tennis A,5.27,3.69,2024-06-30
+787,1025,KEL006,shelf_compliance,low_shelf_facings,15.99,11.99,2024-06-30
+788,1025,KEL006,promotion_execution,missing_display,15.99,13.59,2024-06-30
+789,1025,KEL006,event_opportunity,near_ASB Classic Tennis A,15.99,11.19,2024-06-30
+790,1025,KEL007,event_opportunity,near_ASB Classic Tennis A,5.91,4.14,2024-06-30
+791,1025,KEL008,event_opportunity,near_ASB Classic Tennis A,2.4,1.68,2024-06-30
+792,1025,KEL009,shelf_compliance,low_shelf_facings,11.08,8.31,2024-06-30
+793,1025,KEL009,promotion_execution,missing_display,11.08,9.42,2024-06-30
+794,1025,KEL009,event_opportunity,near_ASB Classic Tennis A,11.08,7.76,2024-06-30
+795,1025,KEL010,event_opportunity,near_ASB Classic Tennis A,0.0,0.0,2024-06-30
+796,1025,KEL011,promotion_execution,missing_display,4.17,3.54,2024-06-30
+797,1025,KEL011,event_opportunity,near_ASB Classic Tennis A,4.17,2.92,2024-06-30
+798,1025,KEL012,out_of_stock,product_oos,48.25,48.25,2024-06-30
+799,1025,KEL012,shelf_compliance,low_shelf_facings,48.25,36.19,2024-06-30
+800,1025,KEL012,promotion_execution,missing_display,48.25,41.01,2024-06-30
+801,1025,KEL012,event_opportunity,near_ASB Classic Tennis A,48.25,33.77,2024-06-30
+802,1025,KEL013,event_opportunity,near_ASB Classic Tennis A,0.0,0.0,2024-06-30
+803,1025,KEL014,shelf_compliance,low_shelf_facings,3.46,2.59,2024-06-30
+804,1025,KEL014,event_opportunity,near_ASB Classic Tennis A,3.46,2.42,2024-06-30
+805,1025,KEL015,out_of_stock,product_oos,55.86,55.86,2024-06-30
+806,1025,KEL015,event_opportunity,near_ASB Classic Tennis A,55.86,39.1,2024-06-30
+807,1025,KEL016,event_opportunity,near_ASB Classic Tennis A,1.93,1.35,2024-06-30
+808,1025,KEL017,out_of_stock,product_oos,58.09,58.09,2024-06-30
+809,1025,KEL017,shelf_compliance,low_shelf_facings,58.09,43.57,2024-06-30
+810,1025,KEL017,promotion_execution,missing_display,58.09,49.38,2024-06-30
+811,1025,KEL017,event_opportunity,near_ASB Classic Tennis A,58.09,40.66,2024-06-30
+812,1025,KEL018,event_opportunity,near_ASB Classic Tennis A,4.22,2.95,2024-06-30
+813,1025,KEL019,shelf_compliance,low_shelf_facings,8.99,6.74,2024-06-30
+814,1025,KEL019,event_opportunity,near_ASB Classic Tennis A,8.99,6.29,2024-06-30
+815,1025,KEL020,promotion_execution,missing_display,6.29,5.35,2024-06-30
+816,1025,KEL020,event_opportunity,near_ASB Classic Tennis A,6.29,4.4,2024-06-30
+817,1026,KEL001,event_opportunity,near_Palmerston North Rug,0.0,0.0,2024-06-30
+818,1026,KEL002,out_of_stock,product_oos,67.09,67.09,2024-06-30
+819,1026,KEL002,shelf_compliance,low_shelf_facings,67.09,50.32,2024-06-30
+820,1026,KEL002,event_opportunity,near_Palmerston North Rug,67.09,46.96,2024-06-30
+821,1026,KEL003,event_opportunity,near_Palmerston North Rug,0.52,0.36,2024-06-30
+822,1026,KEL004,promotion_execution,missing_display,0.0,0.0,2024-06-30
+823,1026,KEL004,event_opportunity,near_Palmerston North Rug,0.0,0.0,2024-06-30
+824,1026,KEL005,promotion_execution,missing_display,0.0,0.0,2024-06-30
+825,1026,KEL005,event_opportunity,near_Palmerston North Rug,0.0,0.0,2024-06-30
+826,1026,KEL006,event_opportunity,near_Palmerston North Rug,1.2,0.84,2024-06-30
+827,1026,KEL007,shelf_compliance,low_shelf_facings,17.39,13.04,2024-06-30
+828,1026,KEL007,event_opportunity,near_Palmerston North Rug,17.39,12.17,2024-06-30
+829,1026,KEL008,shelf_compliance,low_shelf_facings,7.19,5.39,2024-06-30
+830,1026,KEL008,event_opportunity,near_Palmerston North Rug,7.19,5.03,2024-06-30
+831,1026,KEL009,event_opportunity,near_Palmerston North Rug,0.0,0.0,2024-06-30
+832,1026,KEL010,shelf_compliance,low_shelf_facings,6.42,4.81,2024-06-30
+833,1026,KEL010,promotion_execution,missing_display,6.42,5.46,2024-06-30
+834,1026,KEL010,event_opportunity,near_Palmerston North Rug,6.42,4.49,2024-06-30
+835,1026,KEL011,event_opportunity,near_Palmerston North Rug,5.65,3.96,2024-06-30
+836,1026,KEL012,event_opportunity,near_Palmerston North Rug,7.49,5.24,2024-06-30
+837,1026,KEL013,shelf_compliance,low_shelf_facings,12.57,9.43,2024-06-30
+838,1026,KEL013,promotion_execution,missing_display,12.57,10.68,2024-06-30
+839,1026,KEL013,event_opportunity,near_Palmerston North Rug,12.57,8.8,2024-06-30
+840,1026,KEL014,event_opportunity,near_Palmerston North Rug,7.27,5.09,2024-06-30
+841,1026,KEL015,event_opportunity,near_Palmerston North Rug,1.03,0.72,2024-06-30
+842,1026,KEL016,event_opportunity,near_Palmerston North Rug,0.0,0.0,2024-06-30
+843,1026,KEL017,event_opportunity,near_Palmerston North Rug,1.75,1.22,2024-06-30
+844,1026,KEL018,shelf_compliance,low_shelf_facings,12.08,9.06,2024-06-30
+845,1026,KEL018,promotion_execution,missing_display,12.08,10.27,2024-06-30
+846,1026,KEL018,event_opportunity,near_Palmerston North Rug,12.08,8.46,2024-06-30
+847,1026,KEL019,event_opportunity,near_Palmerston North Rug,0.0,0.0,2024-06-30
+848,1026,KEL020,event_opportunity,near_Palmerston North Rug,1.47,1.03,2024-06-30
+849,1027,KEL003,shelf_compliance,low_shelf_facings,11.42,8.56,2024-06-30
+850,1027,KEL003,promotion_execution,missing_display,11.42,9.71,2024-06-30
+851,1027,KEL014,shelf_compliance,low_shelf_facings,8.8,6.6,2024-06-30
+852,1027,KEL014,promotion_execution,missing_display,8.8,7.48,2024-06-30
+853,1027,KEL016,shelf_compliance,low_shelf_facings,11.81,8.86,2024-06-30
+854,1027,KEL016,promotion_execution,missing_display,11.81,10.04,2024-06-30
+855,1027,KEL018,shelf_compliance,low_shelf_facings,8.97,6.73,2024-06-30
+856,1027,KEL020,out_of_stock,product_oos,54.31,54.31,2024-06-30
+857,1027,KEL020,shelf_compliance,low_shelf_facings,54.31,40.73,2024-06-30
+858,1028,KEL001,promotion_execution,missing_display,0.0,0.0,2024-06-30
+859,1028,KEL001,event_opportunity,near_Queenstown Winter Fe,0.0,0.0,2024-06-30
+860,1028,KEL002,shelf_compliance,low_shelf_facings,9.88,7.41,2024-06-30
+861,1028,KEL002,event_opportunity,near_Queenstown Winter Fe,9.88,6.92,2024-06-30
+862,1028,KEL003,promotion_execution,missing_display,3.18,2.7,2024-06-30
+863,1028,KEL003,event_opportunity,near_Queenstown Winter Fe,3.18,2.23,2024-06-30
+864,1028,KEL004,event_opportunity,near_Queenstown Winter Fe,3.89,2.72,2024-06-30
+865,1028,KEL005,event_opportunity,near_Queenstown Winter Fe,5.49,3.84,2024-06-30
+866,1028,KEL006,event_opportunity,near_Queenstown Winter Fe,3.89,2.72,2024-06-30
+867,1028,KEL007,shelf_compliance,low_shelf_facings,8.7,6.52,2024-06-30
+868,1028,KEL007,event_opportunity,near_Queenstown Winter Fe,8.7,6.09,2024-06-30
+869,1028,KEL008,shelf_compliance,low_shelf_facings,9.88,7.41,2024-06-30
+870,1028,KEL008,event_opportunity,near_Queenstown Winter Fe,9.88,6.92,2024-06-30
+871,1028,KEL009,event_opportunity,near_Queenstown Winter Fe,1.5,1.05,2024-06-30
+872,1028,KEL010,promotion_execution,missing_display,2.69,2.29,2024-06-30
+873,1028,KEL010,event_opportunity,near_Queenstown Winter Fe,2.69,1.88,2024-06-30
+874,1028,KEL011,event_opportunity,near_Queenstown Winter Fe,5.22,3.65,2024-06-30
+875,1028,KEL012,event_opportunity,near_Queenstown Winter Fe,2.1,1.47,2024-06-30
+876,1028,KEL013,event_opportunity,near_Queenstown Winter Fe,4.04,2.83,2024-06-30
+877,1028,KEL014,event_opportunity,near_Queenstown Winter Fe,1.35,0.94,2024-06-30
+878,1028,KEL015,out_of_stock,product_oos,28.69,28.69,2024-06-30
+879,1028,KEL015,shelf_compliance,low_shelf_facings,28.69,21.52,2024-06-30
+880,1028,KEL015,promotion_execution,missing_display,28.69,24.39,2024-06-30
+881,1028,KEL015,event_opportunity,near_Queenstown Winter Fe,28.69,20.08,2024-06-30
+882,1028,KEL016,event_opportunity,near_Queenstown Winter Fe,4.76,3.33,2024-06-30
+883,1028,KEL017,promotion_execution,missing_display,1.54,1.31,2024-06-30
+884,1028,KEL017,event_opportunity,near_Queenstown Winter Fe,1.54,1.08,2024-06-30
+885,1028,KEL018,event_opportunity,near_Queenstown Winter Fe,1.7,1.19,2024-06-30
+886,1028,KEL019,event_opportunity,near_Queenstown Winter Fe,0.65,0.45,2024-06-30
+887,1028,KEL020,event_opportunity,near_Queenstown Winter Fe,7.41,5.19,2024-06-30
+888,1029,KEL001,event_opportunity,near_Rotorua Marathon,1.92,1.34,2024-06-30
+889,1029,KEL002,event_opportunity,near_Rotorua Marathon,6.41,4.49,2024-06-30
+890,1029,KEL003,shelf_compliance,low_shelf_facings,2.73,2.05,2024-06-30
+891,1029,KEL003,promotion_execution,missing_display,2.73,2.32,2024-06-30
+892,1029,KEL003,event_opportunity,near_Rotorua Marathon,2.73,1.91,2024-06-30
+893,1029,KEL004,event_opportunity,near_Rotorua Marathon,6.41,4.49,2024-06-30
+894,1029,KEL005,promotion_execution,missing_display,2.47,2.1,2024-06-30
+895,1029,KEL005,event_opportunity,near_Rotorua Marathon,2.47,1.73,2024-06-30
+896,1029,KEL006,shelf_compliance,low_shelf_facings,7.37,5.53,2024-06-30
+897,1029,KEL006,promotion_execution,missing_display,7.37,6.26,2024-06-30
+898,1029,KEL006,event_opportunity,near_Rotorua Marathon,7.37,5.16,2024-06-30
+899,1029,KEL007,promotion_execution,missing_display,6.68,5.68,2024-06-30
+900,1029,KEL007,event_opportunity,near_Rotorua Marathon,6.68,4.68,2024-06-30
+901,1029,KEL008,promotion_execution,missing_display,7.37,6.26,2024-06-30
+902,1029,KEL008,event_opportunity,near_Rotorua Marathon,7.37,5.16,2024-06-30
+903,1029,KEL009,event_opportunity,near_Rotorua Marathon,4.04,2.83,2024-06-30
+904,1029,KEL010,shelf_compliance,low_shelf_facings,1.21,0.91,2024-06-30
+905,1029,KEL010,promotion_execution,missing_display,1.21,1.03,2024-06-30
+906,1029,KEL010,event_opportunity,near_Rotorua Marathon,1.21,0.85,2024-06-30
+907,1029,KEL011,event_opportunity,near_Rotorua Marathon,0.0,0.0,2024-06-30
+908,1029,KEL012,event_opportunity,near_Rotorua Marathon,3.29,2.3,2024-06-30
+909,1029,KEL013,promotion_execution,missing_display,0.0,0.0,2024-06-30
+910,1029,KEL013,event_opportunity,near_Rotorua Marathon,0.0,0.0,2024-06-30
+911,1029,KEL014,shelf_compliance,low_shelf_facings,5.25,3.94,2024-06-30
+912,1029,KEL014,event_opportunity,near_Rotorua Marathon,5.25,3.67,2024-06-30
+913,1029,KEL015,shelf_compliance,low_shelf_facings,6.51,4.88,2024-06-30
+914,1029,KEL015,promotion_execution,missing_display,6.51,5.53,2024-06-30
+915,1029,KEL015,event_opportunity,near_Rotorua Marathon,6.51,4.56,2024-06-30
+916,1029,KEL016,event_opportunity,near_Rotorua Marathon,0.0,0.0,2024-06-30
+917,1029,KEL017,shelf_compliance,low_shelf_facings,4.82,3.62,2024-06-30
+918,1029,KEL017,promotion_execution,missing_display,4.82,4.1,2024-06-30
+919,1029,KEL017,event_opportunity,near_Rotorua Marathon,4.82,3.37,2024-06-30
+920,1029,KEL018,event_opportunity,near_Rotorua Marathon,4.6,3.22,2024-06-30
+921,1029,KEL019,shelf_compliance,low_shelf_facings,7.87,5.9,2024-06-30
+922,1029,KEL019,promotion_execution,missing_display,7.87,6.69,2024-06-30
+923,1029,KEL019,event_opportunity,near_Rotorua Marathon,7.87,5.51,2024-06-30
+924,1029,KEL020,event_opportunity,near_Rotorua Marathon,4.33,3.03,2024-06-30
+925,1030,KEL001,event_opportunity,near_Palmerston North Rug,7.74,5.42,2024-06-30
+926,1030,KEL002,event_opportunity,near_Palmerston North Rug,0.0,0.0,2024-06-30
+927,1030,KEL003,event_opportunity,near_Palmerston North Rug,0.0,0.0,2024-06-30
+928,1030,KEL004,event_opportunity,near_Palmerston North Rug,0.0,0.0,2024-06-30
+929,1030,KEL005,out_of_stock,product_oos,47.6,47.6,2024-06-30
+930,1030,KEL005,shelf_compliance,low_shelf_facings,47.6,35.7,2024-06-30
+931,1030,KEL005,promotion_execution,missing_display,47.6,40.46,2024-06-30
+932,1030,KEL005,event_opportunity,near_Palmerston North Rug,47.6,33.32,2024-06-30
+933,1030,KEL006,out_of_stock,product_oos,59.18,59.18,2024-06-30
+934,1030,KEL006,shelf_compliance,low_shelf_facings,59.18,44.38,2024-06-30
+935,1030,KEL006,event_opportunity,near_Palmerston North Rug,59.18,41.43,2024-06-30
+936,1030,KEL007,event_opportunity,near_Palmerston North Rug,0.0,0.0,2024-06-30
+937,1030,KEL008,shelf_compliance,low_shelf_facings,11.26,8.45,2024-06-30
+938,1030,KEL008,event_opportunity,near_Palmerston North Rug,11.26,7.88,2024-06-30
+939,1030,KEL009,event_opportunity,near_Palmerston North Rug,1.85,1.29,2024-06-30
+940,1030,KEL010,shelf_compliance,low_shelf_facings,4.4,3.3,2024-06-30
+941,1030,KEL010,event_opportunity,near_Palmerston North Rug,4.4,3.08,2024-06-30
+942,1030,KEL011,event_opportunity,near_Palmerston North Rug,4.67,3.27,2024-06-30
+943,1030,KEL012,promotion_execution,missing_display,0.95,0.81,2024-06-30
+944,1030,KEL012,event_opportunity,near_Palmerston North Rug,0.95,0.66,2024-06-30
+945,1030,KEL013,out_of_stock,product_oos,86.97,86.97,2024-06-30
+946,1030,KEL013,event_opportunity,near_Palmerston North Rug,86.97,60.88,2024-06-30
+947,1030,KEL014,event_opportunity,near_Palmerston North Rug,0.0,0.0,2024-06-30
+948,1030,KEL015,event_opportunity,near_Palmerston North Rug,0.0,0.0,2024-06-30
+949,1030,KEL016,promotion_execution,missing_display,0.0,0.0,2024-06-30
+950,1030,KEL016,event_opportunity,near_Palmerston North Rug,0.0,0.0,2024-06-30
+951,1030,KEL017,event_opportunity,near_Palmerston North Rug,0.0,0.0,2024-06-30
+952,1030,KEL018,event_opportunity,near_Palmerston North Rug,0.0,0.0,2024-06-30
+953,1030,KEL019,event_opportunity,near_Palmerston North Rug,6.8,4.76,2024-06-30
+954,1030,KEL020,event_opportunity,near_Palmerston North Rug,7.06,4.94,2024-06-30
+955,1031,KEL001,out_of_stock,product_oos,13.34,13.34,2024-06-30
+956,1031,KEL001,shelf_compliance,low_shelf_facings,13.34,10.0,2024-06-30
+957,1031,KEL001,promotion_execution,missing_display,13.34,11.34,2024-06-30
+958,1031,KEL001,event_opportunity,near_Homegrown Festival W,13.34,9.34,2024-06-30
+959,1031,KEL002,event_opportunity,near_Homegrown Festival W,0.0,0.0,2024-06-30
+960,1031,KEL003,out_of_stock,product_oos,12.14,12.14,2024-06-30
+961,1031,KEL003,shelf_compliance,low_shelf_facings,12.14,9.11,2024-06-30
+962,1031,KEL003,promotion_execution,missing_display,12.14,10.32,2024-06-30
+963,1031,KEL003,event_opportunity,near_Homegrown Festival W,12.14,8.5,2024-06-30
+964,1031,KEL004,shelf_compliance,low_shelf_facings,1.86,1.4,2024-06-30
+965,1031,KEL004,promotion_execution,missing_display,1.86,1.58,2024-06-30
+966,1031,KEL004,event_opportunity,near_Homegrown Festival W,1.86,1.3,2024-06-30
+967,1031,KEL005,event_opportunity,near_Homegrown Festival W,0.0,0.0,2024-06-30
+968,1031,KEL006,event_opportunity,near_Homegrown Festival W,0.0,0.0,2024-06-30
+969,1031,KEL007,event_opportunity,near_Homegrown Festival W,4.15,2.91,2024-06-30
+970,1031,KEL008,event_opportunity,near_Homegrown Festival W,0.0,0.0,2024-06-30
+971,1031,KEL009,shelf_compliance,low_shelf_facings,0.95,0.71,2024-06-30
+972,1031,KEL009,promotion_execution,missing_display,0.95,0.81,2024-06-30
+973,1031,KEL009,event_opportunity,near_Homegrown Festival W,0.95,0.66,2024-06-30
+974,1031,KEL010,event_opportunity,near_Homegrown Festival W,3.59,2.51,2024-06-30
+975,1031,KEL011,promotion_execution,missing_display,0.38,0.32,2024-06-30
+976,1031,KEL011,event_opportunity,near_Homegrown Festival W,0.38,0.27,2024-06-30
+977,1031,KEL012,out_of_stock,product_oos,15.42,15.42,2024-06-30
+978,1031,KEL012,shelf_compliance,low_shelf_facings,15.42,11.56,2024-06-30
+979,1031,KEL012,event_opportunity,near_Homegrown Festival W,15.42,10.79,2024-06-30
+980,1031,KEL013,out_of_stock,product_oos,12.53,12.53,2024-06-30
+981,1031,KEL013,shelf_compliance,low_shelf_facings,12.53,9.4,2024-06-30
+982,1031,KEL013,promotion_execution,missing_display,12.53,10.65,2024-06-30
+983,1031,KEL013,event_opportunity,near_Homegrown Festival W,12.53,8.77,2024-06-30
+984,1031,KEL014,out_of_stock,product_oos,15.04,15.04,2024-06-30
+985,1031,KEL014,shelf_compliance,low_shelf_facings,15.04,11.28,2024-06-30
+986,1031,KEL014,event_opportunity,near_Homegrown Festival W,15.04,10.53,2024-06-30
+987,1031,KEL015,shelf_compliance,low_shelf_facings,4.76,3.57,2024-06-30
+988,1031,KEL015,event_opportunity,near_Homegrown Festival W,4.76,3.33,2024-06-30
+989,1031,KEL016,event_opportunity,near_Homegrown Festival W,0.0,0.0,2024-06-30
+990,1031,KEL017,promotion_execution,missing_display,0.07,0.06,2024-06-30
+991,1031,KEL017,event_opportunity,near_Homegrown Festival W,0.07,0.05,2024-06-30
+992,1031,KEL018,out_of_stock,product_oos,13.87,13.87,2024-06-30
+993,1031,KEL018,shelf_compliance,low_shelf_facings,13.87,10.4,2024-06-30
+994,1031,KEL018,event_opportunity,near_Homegrown Festival W,13.87,9.71,2024-06-30
+995,1031,KEL019,out_of_stock,product_oos,9.74,9.74,2024-06-30
+996,1031,KEL019,shelf_compliance,low_shelf_facings,9.74,7.3,2024-06-30
+997,1031,KEL019,promotion_execution,missing_display,9.74,8.28,2024-06-30
+998,1031,KEL019,event_opportunity,near_Homegrown Festival W,9.74,6.82,2024-06-30
+999,1031,KEL020,event_opportunity,near_Homegrown Festival W,3.63,2.54,2024-06-30
+1000,1032,KEL001,event_opportunity,near_Palmerston North Rug,2.69,1.88,2024-06-30
+1001,1032,KEL002,out_of_stock,product_oos,26.06,26.06,2024-06-30
+1002,1032,KEL002,shelf_compliance,low_shelf_facings,26.06,19.54,2024-06-30
+1003,1032,KEL002,promotion_execution,missing_display,26.06,22.15,2024-06-30
+1004,1032,KEL002,event_opportunity,near_Palmerston North Rug,26.06,18.24,2024-06-30
+1005,1032,KEL003,event_opportunity,near_Palmerston North Rug,0.0,0.0,2024-06-30
+1006,1032,KEL004,event_opportunity,near_Palmerston North Rug,0.0,0.0,2024-06-30
+1007,1032,KEL005,event_opportunity,near_Palmerston North Rug,0.0,0.0,2024-06-30
+1008,1032,KEL006,event_opportunity,near_Palmerston North Rug,0.0,0.0,2024-06-30
+1009,1032,KEL007,shelf_compliance,low_shelf_facings,0.0,0.0,2024-06-30
+1010,1032,KEL007,event_opportunity,near_Palmerston North Rug,0.0,0.0,2024-06-30
+1011,1032,KEL008,event_opportunity,near_Palmerston North Rug,0.0,0.0,2024-06-30
+1012,1032,KEL009,out_of_stock,product_oos,20.56,20.56,2024-06-30
+1013,1032,KEL009,promotion_execution,missing_display,20.56,17.48,2024-06-30
+1014,1032,KEL009,event_opportunity,near_Palmerston North Rug,20.56,14.39,2024-06-30
+1015,1032,KEL010,event_opportunity,near_Palmerston North Rug,1.21,0.85,2024-06-30
+1016,1032,KEL011,promotion_execution,missing_display,0.0,0.0,2024-06-30
+1017,1032,KEL011,event_opportunity,near_Palmerston North Rug,0.0,0.0,2024-06-30
+1018,1032,KEL012,shelf_compliance,low_shelf_facings,4.24,3.18,2024-06-30
+1019,1032,KEL012,promotion_execution,missing_display,4.24,3.6,2024-06-30
+1020,1032,KEL012,event_opportunity,near_Palmerston North Rug,4.24,2.97,2024-06-30
+1021,1032,KEL013,event_opportunity,near_Palmerston North Rug,0.49,0.34,2024-06-30
+1022,1032,KEL014,event_opportunity,near_Palmerston North Rug,0.0,0.0,2024-06-30
+1023,1032,KEL015,shelf_compliance,low_shelf_facings,5.57,4.18,2024-06-30
+1024,1032,KEL015,promotion_execution,missing_display,5.57,4.73,2024-06-30
+1025,1032,KEL015,event_opportunity,near_Palmerston North Rug,5.57,3.9,2024-06-30
+1026,1032,KEL016,event_opportunity,near_Palmerston North Rug,2.29,1.6,2024-06-30
+1027,1032,KEL017,event_opportunity,near_Palmerston North Rug,3.56,2.49,2024-06-30
+1028,1032,KEL018,event_opportunity,near_Palmerston North Rug,0.0,0.0,2024-06-30
+1029,1032,KEL019,event_opportunity,near_Palmerston North Rug,2.07,1.45,2024-06-30
+1030,1032,KEL020,event_opportunity,near_Palmerston North Rug,0.0,0.0,2024-06-30
+1031,1033,KEL001,event_opportunity,near_ASB Classic Tennis A,3.46,2.42,2024-06-30
+1032,1033,KEL002,event_opportunity,near_ASB Classic Tennis A,7.73,5.41,2024-06-30
+1033,1033,KEL003,event_opportunity,near_ASB Classic Tennis A,0.65,0.45,2024-06-30
+1034,1033,KEL004,event_opportunity,near_ASB Classic Tennis A,7.73,5.41,2024-06-30
+1035,1033,KEL005,out_of_stock,product_oos,30.36,30.36,2024-06-30
+1036,1033,KEL005,shelf_compliance,low_shelf_facings,30.36,22.77,2024-06-30
+1037,1033,KEL005,promotion_execution,missing_display,30.36,25.81,2024-06-30
+1038,1033,KEL005,event_opportunity,near_ASB Classic Tennis A,30.36,21.25,2024-06-30
+1039,1033,KEL006,promotion_execution,missing_display,1.5,1.27,2024-06-30
+1040,1033,KEL006,event_opportunity,near_ASB Classic Tennis A,1.5,1.05,2024-06-30
+1041,1033,KEL007,event_opportunity,near_ASB Classic Tennis A,6.49,4.54,2024-06-30
+1042,1033,KEL008,shelf_compliance,low_shelf_facings,13.48,10.11,2024-06-30
+1043,1033,KEL008,promotion_execution,missing_display,13.48,11.46,2024-06-30
+1044,1033,KEL008,event_opportunity,near_ASB Classic Tennis A,13.48,9.44,2024-06-30
+1045,1033,KEL009,event_opportunity,near_ASB Classic Tennis A,0.0,0.0,2024-06-30
+1046,1033,KEL010,event_opportunity,near_ASB Classic Tennis A,1.62,1.13,2024-06-30
+1047,1033,KEL011,shelf_compliance,low_shelf_facings,3.84,2.88,2024-06-30
+1048,1033,KEL011,promotion_execution,missing_display,3.84,3.26,2024-06-30
+1049,1033,KEL011,event_opportunity,near_ASB Classic Tennis A,3.84,2.69,2024-06-30
+1050,1033,KEL012,out_of_stock,product_oos,35.03,35.03,2024-06-30
+1051,1033,KEL012,shelf_compliance,low_shelf_facings,35.03,26.27,2024-06-30
+1052,1033,KEL012,event_opportunity,near_ASB Classic Tennis A,35.03,24.52,2024-06-30
+1053,1033,KEL013,event_opportunity,near_ASB Classic Tennis A,2.69,1.88,2024-06-30
+1054,1033,KEL014,shelf_compliance,low_shelf_facings,9.02,6.76,2024-06-30
+1055,1033,KEL014,event_opportunity,near_ASB Classic Tennis A,9.02,6.31,2024-06-30
+1056,1033,KEL015,shelf_compliance,low_shelf_facings,7.9,5.93,2024-06-30
+1057,1033,KEL015,promotion_execution,missing_display,7.9,6.71,2024-06-30
+1058,1033,KEL015,event_opportunity,near_ASB Classic Tennis A,7.9,5.53,2024-06-30
+1059,1033,KEL016,event_opportunity,near_ASB Classic Tennis A,4.0,2.8,2024-06-30
+1060,1033,KEL017,shelf_compliance,low_shelf_facings,6.78,5.08,2024-06-30
+1061,1033,KEL017,event_opportunity,near_ASB Classic Tennis A,6.78,4.75,2024-06-30
+1062,1033,KEL018,event_opportunity,near_ASB Classic Tennis A,0.36,0.25,2024-06-30
+1063,1033,KEL019,shelf_compliance,low_shelf_facings,6.62,4.96,2024-06-30
+1064,1033,KEL019,event_opportunity,near_ASB Classic Tennis A,6.62,4.63,2024-06-30
+1065,1033,KEL020,promotion_execution,missing_display,0.0,0.0,2024-06-30
+1066,1033,KEL020,event_opportunity,near_ASB Classic Tennis A,0.0,0.0,2024-06-30
+1067,1034,KEL001,shelf_compliance,low_shelf_facings,0.0,0.0,2024-06-30
+1068,1034,KEL001,promotion_execution,missing_display,0.0,0.0,2024-06-30
+1069,1034,KEL001,event_opportunity,near_ASB Classic Tennis A,0.0,0.0,2024-06-30
+1070,1034,KEL002,event_opportunity,near_ASB Classic Tennis A,7.31,5.12,2024-06-30
+1071,1034,KEL003,event_opportunity,near_ASB Classic Tennis A,8.31,5.82,2024-06-30
+1072,1034,KEL004,event_opportunity,near_ASB Classic Tennis A,1.8,1.26,2024-06-30
+1073,1034,KEL005,event_opportunity,near_ASB Classic Tennis A,4.17,2.92,2024-06-30
+1074,1034,KEL006,event_opportunity,near_ASB Classic Tennis A,1.32,0.92,2024-06-30
+1075,1034,KEL007,event_opportunity,near_ASB Classic Tennis A,3.76,2.63,2024-06-30
+1076,1034,KEL008,shelf_compliance,low_shelf_facings,13.3,9.98,2024-06-30
+1077,1034,KEL008,event_opportunity,near_ASB Classic Tennis A,13.3,9.31,2024-06-30
+1078,1034,KEL009,shelf_compliance,low_shelf_facings,8.43,6.32,2024-06-30
+1079,1034,KEL009,event_opportunity,near_ASB Classic Tennis A,8.43,5.9,2024-06-30
+1080,1034,KEL010,shelf_compliance,low_shelf_facings,14.91,11.18,2024-06-30
+1081,1034,KEL010,event_opportunity,near_ASB Classic Tennis A,14.91,10.44,2024-06-30
+1082,1034,KEL011,shelf_compliance,low_shelf_facings,3.4,2.55,2024-06-30
+1083,1034,KEL011,promotion_execution,missing_display,3.4,2.89,2024-06-30
+1084,1034,KEL011,event_opportunity,near_ASB Classic Tennis A,3.4,2.38,2024-06-30
+1085,1034,KEL012,event_opportunity,near_ASB Classic Tennis A,6.99,4.89,2024-06-30
+1086,1034,KEL013,promotion_execution,missing_display,4.71,4.0,2024-06-30
+1087,1034,KEL013,event_opportunity,near_ASB Classic Tennis A,4.71,3.3,2024-06-30
+1088,1034,KEL014,shelf_compliance,low_shelf_facings,12.89,9.67,2024-06-30
+1089,1034,KEL014,promotion_execution,missing_display,12.89,10.96,2024-06-30
+1090,1034,KEL014,event_opportunity,near_ASB Classic Tennis A,12.89,9.02,2024-06-30
+1091,1034,KEL015,event_opportunity,near_ASB Classic Tennis A,8.94,6.26,2024-06-30
+1092,1034,KEL016,event_opportunity,near_ASB Classic Tennis A,10.24,7.17,2024-06-30
+1093,1034,KEL017,shelf_compliance,low_shelf_facings,15.94,11.96,2024-06-30
+1094,1034,KEL017,promotion_execution,missing_display,15.94,13.55,2024-06-30
+1095,1034,KEL017,event_opportunity,near_ASB Classic Tennis A,15.94,11.16,2024-06-30
+1096,1034,KEL018,event_opportunity,near_ASB Classic Tennis A,0.51,0.36,2024-06-30
+1097,1034,KEL019,event_opportunity,near_ASB Classic Tennis A,0.0,0.0,2024-06-30
+1098,1034,KEL020,promotion_execution,missing_display,5.31,4.51,2024-06-30
+1099,1034,KEL020,event_opportunity,near_ASB Classic Tennis A,5.31,3.72,2024-06-30
+1100,1035,KEL001,shelf_compliance,low_shelf_facings,3.57,2.68,2024-06-30
+1101,1035,KEL001,event_opportunity,near_Dunedin Highlanders ,3.57,2.5,2024-06-30
+1102,1035,KEL002,event_opportunity,near_Dunedin Highlanders ,1.56,1.09,2024-06-30
+1103,1035,KEL003,event_opportunity,near_Dunedin Highlanders ,5.71,4.0,2024-06-30
+1104,1035,KEL004,shelf_compliance,low_shelf_facings,0.3,0.22,2024-06-30
+1105,1035,KEL004,promotion_execution,missing_display,0.3,0.26,2024-06-30
+1106,1035,KEL004,event_opportunity,near_Dunedin Highlanders ,0.3,0.21,2024-06-30
+1107,1035,KEL005,event_opportunity,near_Dunedin Highlanders ,9.06,6.34,2024-06-30
+1108,1035,KEL006,event_opportunity,near_Dunedin Highlanders ,7.55,5.28,2024-06-30
+1109,1035,KEL007,event_opportunity,near_Dunedin Highlanders ,0.0,0.0,2024-06-30
+1110,1035,KEL008,event_opportunity,near_Dunedin Highlanders ,1.56,1.09,2024-06-30
+1111,1035,KEL009,event_opportunity,near_Dunedin Highlanders ,0.0,0.0,2024-06-30
+1112,1035,KEL010,out_of_stock,product_oos,32.96,32.96,2024-06-30
+1113,1035,KEL010,shelf_compliance,low_shelf_facings,32.96,24.72,2024-06-30
+1114,1035,KEL010,event_opportunity,near_Dunedin Highlanders ,32.96,23.07,2024-06-30
+1115,1035,KEL011,event_opportunity,near_Dunedin Highlanders ,2.8,1.96,2024-06-30
+1116,1035,KEL012,event_opportunity,near_Dunedin Highlanders ,5.49,3.84,2024-06-30
+1117,1035,KEL013,event_opportunity,near_Dunedin Highlanders ,2.92,2.04,2024-06-30
+1118,1035,KEL014,event_opportunity,near_Dunedin Highlanders ,1.17,0.82,2024-06-30
+1119,1035,KEL015,event_opportunity,near_Dunedin Highlanders ,3.73,2.61,2024-06-30
+1120,1035,KEL016,out_of_stock,product_oos,29.99,29.99,2024-06-30
+1121,1035,KEL016,shelf_compliance,low_shelf_facings,29.99,22.49,2024-06-30
+1122,1035,KEL016,promotion_execution,missing_display,29.99,25.49,2024-06-30
+1123,1035,KEL016,event_opportunity,near_Dunedin Highlanders ,29.99,20.99,2024-06-30
+1124,1035,KEL017,promotion_execution,missing_display,3.63,3.09,2024-06-30
+1125,1035,KEL017,event_opportunity,near_Dunedin Highlanders ,3.63,2.54,2024-06-30
+1126,1035,KEL018,promotion_execution,missing_display,2.42,2.06,2024-06-30
+1127,1035,KEL018,event_opportunity,near_Dunedin Highlanders ,2.42,1.69,2024-06-30
+1128,1035,KEL019,event_opportunity,near_Dunedin Highlanders ,0.75,0.52,2024-06-30
+1129,1035,KEL020,event_opportunity,near_Dunedin Highlanders ,4.33,3.03,2024-06-30
+1130,1036,KEL001,event_opportunity,near_Tauranga Summer Fest,5.93,4.15,2024-06-30
+1131,1036,KEL002,out_of_stock,product_oos,43.01,43.01,2024-06-30
+1132,1036,KEL002,shelf_compliance,low_shelf_facings,43.01,32.26,2024-06-30
+1133,1036,KEL002,promotion_execution,missing_display,43.01,36.56,2024-06-30
+1134,1036,KEL002,event_opportunity,near_Tauranga Summer Fest,43.01,30.11,2024-06-30
+1135,1036,KEL003,shelf_compliance,low_shelf_facings,6.36,4.77,2024-06-30
+1136,1036,KEL003,promotion_execution,missing_display,6.36,5.41,2024-06-30
+1137,1036,KEL003,event_opportunity,near_Tauranga Summer Fest,6.36,4.45,2024-06-30
+1138,1036,KEL004,event_opportunity,near_Tauranga Summer Fest,3.71,2.6,2024-06-30
+1139,1036,KEL005,shelf_compliance,low_shelf_facings,14.11,10.58,2024-06-30
+1140,1036,KEL005,promotion_execution,missing_display,14.11,11.99,2024-06-30
+1141,1036,KEL005,event_opportunity,near_Tauranga Summer Fest,14.11,9.88,2024-06-30
+1142,1036,KEL006,out_of_stock,product_oos,51.63,51.63,2024-06-30
+1143,1036,KEL006,event_opportunity,near_Tauranga Summer Fest,51.63,36.14,2024-06-30
+1144,1036,KEL007,out_of_stock,product_oos,53.35,53.35,2024-06-30
+1145,1036,KEL007,event_opportunity,near_Tauranga Summer Fest,53.35,37.34,2024-06-30
+1146,1036,KEL008,shelf_compliance,low_shelf_facings,7.07,5.3,2024-06-30
+1147,1036,KEL008,promotion_execution,missing_display,7.07,6.01,2024-06-30
+1148,1036,KEL008,event_opportunity,near_Tauranga Summer Fest,7.07,4.95,2024-06-30
+1149,1036,KEL009,shelf_compliance,low_shelf_facings,10.88,8.16,2024-06-30
+1150,1036,KEL009,event_opportunity,near_Tauranga Summer Fest,10.88,7.62,2024-06-30
+1151,1036,KEL010,out_of_stock,product_oos,39.11,39.11,2024-06-30
+1152,1036,KEL010,shelf_compliance,low_shelf_facings,39.11,29.33,2024-06-30
+1153,1036,KEL010,event_opportunity,near_Tauranga Summer Fest,39.11,27.38,2024-06-30
+1154,1036,KEL011,event_opportunity,near_Tauranga Summer Fest,0.0,0.0,2024-06-30
+1155,1036,KEL012,event_opportunity,near_Tauranga Summer Fest,3.09,2.16,2024-06-30
+1156,1036,KEL013,event_opportunity,near_Tauranga Summer Fest,8.22,5.75,2024-06-30
+1157,1036,KEL014,event_opportunity,near_Tauranga Summer Fest,0.04,0.03,2024-06-30
+1158,1036,KEL015,event_opportunity,near_Tauranga Summer Fest,3.73,2.61,2024-06-30
+1159,1036,KEL016,event_opportunity,near_Tauranga Summer Fest,8.76,6.13,2024-06-30
+1160,1036,KEL017,event_opportunity,near_Tauranga Summer Fest,3.01,2.11,2024-06-30
+1161,1036,KEL018,event_opportunity,near_Tauranga Summer Fest,0.36,0.25,2024-06-30
+1162,1036,KEL019,event_opportunity,near_Tauranga Summer Fest,1.49,1.04,2024-06-30
+1163,1036,KEL020,shelf_compliance,low_shelf_facings,6.01,4.51,2024-06-30
+1164,1036,KEL020,event_opportunity,near_Tauranga Summer Fest,6.01,4.21,2024-06-30
+1165,1037,KEL001,event_opportunity,near_ASB Classic Tennis A,3.9,2.73,2024-06-30
+1166,1037,KEL002,event_opportunity,near_ASB Classic Tennis A,2.22,1.55,2024-06-30
+1167,1037,KEL003,event_opportunity,near_ASB Classic Tennis A,1.04,0.73,2024-06-30
+1168,1037,KEL004,shelf_compliance,low_shelf_facings,14.2,10.65,2024-06-30
+1169,1037,KEL004,event_opportunity,near_ASB Classic Tennis A,14.2,9.94,2024-06-30
+1170,1037,KEL005,event_opportunity,near_ASB Classic Tennis A,0.0,0.0,2024-06-30
+1171,1037,KEL006,event_opportunity,near_ASB Classic Tennis A,8.21,5.75,2024-06-30
+1172,1037,KEL007,event_opportunity,near_ASB Classic Tennis A,0.0,0.0,2024-06-30
+1173,1037,KEL008,event_opportunity,near_ASB Classic Tennis A,8.21,5.75,2024-06-30
+1174,1037,KEL009,shelf_compliance,low_shelf_facings,5.19,3.89,2024-06-30
+1175,1037,KEL009,promotion_execution,missing_display,5.19,4.41,2024-06-30
+1176,1037,KEL009,event_opportunity,near_ASB Classic Tennis A,5.19,3.63,2024-06-30
+1177,1037,KEL010,event_opportunity,near_ASB Classic Tennis A,1.98,1.39,2024-06-30
+1178,1037,KEL011,event_opportunity,near_ASB Classic Tennis A,3.9,2.73,2024-06-30
+1179,1037,KEL012,event_opportunity,near_ASB Classic Tennis A,5.54,3.88,2024-06-30
+1180,1037,KEL013,promotion_execution,missing_display,2.96,2.52,2024-06-30
+1181,1037,KEL013,event_opportunity,near_ASB Classic Tennis A,2.96,2.07,2024-06-30
+1182,1037,KEL014,promotion_execution,missing_display,0.0,0.0,2024-06-30
+1183,1037,KEL014,event_opportunity,near_ASB Classic Tennis A,0.0,0.0,2024-06-30
+1184,1037,KEL015,event_opportunity,near_ASB Classic Tennis A,4.4,3.08,2024-06-30
+1185,1037,KEL016,event_opportunity,near_ASB Classic Tennis A,10.01,7.01,2024-06-30
+1186,1037,KEL017,event_opportunity,near_ASB Classic Tennis A,4.26,2.98,2024-06-30
+1187,1037,KEL018,shelf_compliance,low_shelf_facings,6.64,4.98,2024-06-30
+1188,1037,KEL018,event_opportunity,near_ASB Classic Tennis A,6.64,4.65,2024-06-30
+1189,1037,KEL019,shelf_compliance,low_shelf_facings,1.97,1.48,2024-06-30
+1190,1037,KEL019,event_opportunity,near_ASB Classic Tennis A,1.97,1.38,2024-06-30
+1191,1037,KEL020,shelf_compliance,low_shelf_facings,5.87,4.4,2024-06-30
+1192,1037,KEL020,promotion_execution,missing_display,5.87,4.99,2024-06-30
+1193,1037,KEL020,event_opportunity,near_ASB Classic Tennis A,5.87,4.11,2024-06-30
+1194,1038,KEL001,shelf_compliance,low_shelf_facings,21.58,16.18,2024-06-30
+1195,1038,KEL001,promotion_execution,missing_display,21.58,18.34,2024-06-30
+1196,1038,KEL001,event_opportunity,near_Napier Art Deco Fest,21.58,15.11,2024-06-30
+1197,1038,KEL002,out_of_stock,product_oos,60.92,60.92,2024-06-30
+1198,1038,KEL002,shelf_compliance,low_shelf_facings,60.92,45.69,2024-06-30
+1199,1038,KEL002,event_opportunity,near_Napier Art Deco Fest,60.92,42.64,2024-06-30
+1200,1038,KEL003,event_opportunity,near_Napier Art Deco Fest,1.56,1.09,2024-06-30
+1201,1038,KEL004,event_opportunity,near_Napier Art Deco Fest,7.01,4.91,2024-06-30
+1202,1038,KEL005,out_of_stock,product_oos,49.03,49.03,2024-06-30
+1203,1038,KEL005,shelf_compliance,low_shelf_facings,49.03,36.77,2024-06-30
+1204,1038,KEL005,promotion_execution,missing_display,49.03,41.68,2024-06-30
+1205,1038,KEL005,event_opportunity,near_Napier Art Deco Fest,49.03,34.32,2024-06-30
+1206,1038,KEL006,event_opportunity,near_Napier Art Deco Fest,7.01,4.91,2024-06-30
+1207,1038,KEL007,shelf_compliance,low_shelf_facings,10.97,8.23,2024-06-30
+1208,1038,KEL007,event_opportunity,near_Napier Art Deco Fest,10.97,7.68,2024-06-30
+1209,1038,KEL008,event_opportunity,near_Napier Art Deco Fest,1.2,0.84,2024-06-30
+1210,1038,KEL009,event_opportunity,near_Napier Art Deco Fest,0.0,0.0,2024-06-30
+1211,1038,KEL010,shelf_compliance,low_shelf_facings,7.0,5.25,2024-06-30
+1212,1038,KEL010,promotion_execution,missing_display,7.0,5.95,2024-06-30
+1213,1038,KEL010,event_opportunity,near_Napier Art Deco Fest,7.0,4.9,2024-06-30
+1214,1038,KEL011,out_of_stock,product_oos,41.67,41.67,2024-06-30
+1215,1038,KEL011,shelf_compliance,low_shelf_facings,41.67,31.25,2024-06-30
+1216,1038,KEL011,promotion_execution,missing_display,41.67,35.42,2024-06-30
+1217,1038,KEL011,event_opportunity,near_Napier Art Deco Fest,41.67,29.17,2024-06-30
+1218,1038,KEL012,event_opportunity,near_Napier Art Deco Fest,6.74,4.72,2024-06-30
+1219,1038,KEL013,shelf_compliance,low_shelf_facings,12.08,9.06,2024-06-30
+1220,1038,KEL013,promotion_execution,missing_display,12.08,10.27,2024-06-30
+1221,1038,KEL013,event_opportunity,near_Napier Art Deco Fest,12.08,8.46,2024-06-30
+1222,1038,KEL014,event_opportunity,near_Napier Art Deco Fest,1.8,1.26,2024-06-30
+1223,1038,KEL015,event_opportunity,near_Napier Art Deco Fest,4.36,3.05,2024-06-30
+1224,1038,KEL016,event_opportunity,near_Napier Art Deco Fest,2.42,1.69,2024-06-30
+1225,1038,KEL017,promotion_execution,missing_display,6.99,5.94,2024-06-30
+1226,1038,KEL017,event_opportunity,near_Napier Art Deco Fest,6.99,4.89,2024-06-30
+1227,1038,KEL018,event_opportunity,near_Napier Art Deco Fest,3.32,2.32,2024-06-30
+1228,1038,KEL019,promotion_execution,missing_display,3.36,2.86,2024-06-30
+1229,1038,KEL019,event_opportunity,near_Napier Art Deco Fest,3.36,2.35,2024-06-30
+1230,1038,KEL020,event_opportunity,near_Napier Art Deco Fest,8.88,6.22,2024-06-30
+1231,1039,KEL004,out_of_stock,product_oos,32.17,32.17,2024-06-30
+1232,1039,KEL007,shelf_compliance,low_shelf_facings,7.27,5.45,2024-06-30
+1233,1039,KEL008,promotion_execution,missing_display,8.87,7.54,2024-06-30
+1234,1039,KEL009,shelf_compliance,low_shelf_facings,5.49,4.12,2024-06-30
+1235,1039,KEL010,shelf_compliance,low_shelf_facings,2.38,1.78,2024-06-30
+1236,1039,KEL010,promotion_execution,missing_display,2.38,2.02,2024-06-30
+1237,1039,KEL015,shelf_compliance,low_shelf_facings,0.99,0.74,2024-06-30
+1238,1039,KEL015,promotion_execution,missing_display,0.99,0.84,2024-06-30
+1239,1039,KEL016,shelf_compliance,low_shelf_facings,7.99,5.99,2024-06-30
+1240,1039,KEL018,out_of_stock,product_oos,20.72,20.72,2024-06-30
+1241,1039,KEL018,shelf_compliance,low_shelf_facings,20.72,15.54,2024-06-30
+1242,1040,KEL001,event_opportunity,near_ASB Classic Tennis A,5.49,3.84,2024-06-30
+1243,1040,KEL002,event_opportunity,near_ASB Classic Tennis A,0.0,0.0,2024-06-30
+1244,1040,KEL003,event_opportunity,near_ASB Classic Tennis A,5.97,4.18,2024-06-30
+1245,1040,KEL004,shelf_compliance,low_shelf_facings,12.7,9.52,2024-06-30
+1246,1040,KEL004,promotion_execution,missing_display,12.7,10.79,2024-06-30
+1247,1040,KEL004,event_opportunity,near_ASB Classic Tennis A,12.7,8.89,2024-06-30
+1248,1040,KEL005,event_opportunity,near_ASB Classic Tennis A,0.0,0.0,2024-06-30
+1249,1040,KEL006,shelf_compliance,low_shelf_facings,15.21,11.41,2024-06-30
+1250,1040,KEL006,event_opportunity,near_ASB Classic Tennis A,15.21,10.65,2024-06-30
+1251,1040,KEL007,out_of_stock,product_oos,52.83,52.83,2024-06-30
+1252,1040,KEL007,event_opportunity,near_ASB Classic Tennis A,52.83,36.98,2024-06-30
+1253,1040,KEL008,event_opportunity,near_ASB Classic Tennis A,0.0,0.0,2024-06-30
+1254,1040,KEL009,event_opportunity,near_ASB Classic Tennis A,0.5,0.35,2024-06-30
+1255,1040,KEL010,event_opportunity,near_ASB Classic Tennis A,0.0,0.0,2024-06-30
+1256,1040,KEL011,event_opportunity,near_ASB Classic Tennis A,0.0,0.0,2024-06-30
+1257,1040,KEL012,shelf_compliance,low_shelf_facings,14.67,11.0,2024-06-30
+1258,1040,KEL012,promotion_execution,missing_display,14.67,12.47,2024-06-30
+1259,1040,KEL012,event_opportunity,near_ASB Classic Tennis A,14.67,10.27,2024-06-30
+1260,1040,KEL013,event_opportunity,near_ASB Classic Tennis A,0.0,0.0,2024-06-30
+1261,1040,KEL014,shelf_compliance,low_shelf_facings,9.07,6.8,2024-06-30
+1262,1040,KEL014,event_opportunity,near_ASB Classic Tennis A,9.07,6.35,2024-06-30
+1263,1040,KEL015,out_of_stock,product_oos,42.79,42.79,2024-06-30
+1264,1040,KEL015,event_opportunity,near_ASB Classic Tennis A,42.79,29.95,2024-06-30
+1265,1040,KEL016,out_of_stock,product_oos,41.94,41.94,2024-06-30
+1266,1040,KEL016,event_opportunity,near_ASB Classic Tennis A,41.94,29.36,2024-06-30
+1267,1040,KEL017,event_opportunity,near_ASB Classic Tennis A,4.12,2.88,2024-06-30
+1268,1040,KEL018,shelf_compliance,low_shelf_facings,9.51,7.13,2024-06-30
+1269,1040,KEL018,promotion_execution,missing_display,9.51,8.08,2024-06-30
+1270,1040,KEL018,event_opportunity,near_ASB Classic Tennis A,9.51,6.66,2024-06-30
+1271,1040,KEL019,event_opportunity,near_ASB Classic Tennis A,1.17,0.82,2024-06-30
+1272,1040,KEL020,event_opportunity,near_ASB Classic Tennis A,0.0,0.0,2024-06-30
+1273,1041,KEL001,promotion_execution,missing_display,2.03,1.73,2024-06-30
+1274,1041,KEL002,out_of_stock,product_oos,36.6,36.6,2024-06-30
+1275,1041,KEL002,shelf_compliance,low_shelf_facings,36.6,27.45,2024-06-30
+1276,1041,KEL004,promotion_execution,missing_display,0.54,0.46,2024-06-30
+1277,1041,KEL010,shelf_compliance,low_shelf_facings,9.65,7.24,2024-06-30
+1278,1041,KEL010,promotion_execution,missing_display,9.65,8.2,2024-06-30
+1279,1041,KEL014,promotion_execution,missing_display,4.22,3.59,2024-06-30
+1280,1041,KEL015,shelf_compliance,low_shelf_facings,8.94,6.71,2024-06-30
+1281,1041,KEL015,promotion_execution,missing_display,8.94,7.6,2024-06-30
+1282,1041,KEL018,promotion_execution,missing_display,1.7,1.44,2024-06-30
+1283,1041,KEL019,promotion_execution,missing_display,4.06,3.45,2024-06-30
+1284,1041,KEL020,out_of_stock,product_oos,32.43,32.43,2024-06-30
+1285,1041,KEL020,shelf_compliance,low_shelf_facings,32.43,24.32,2024-06-30
+1286,1041,KEL020,promotion_execution,missing_display,32.43,27.57,2024-06-30
+1287,1042,KEL001,event_opportunity,near_ASB Classic Tennis A,8.13,5.69,2024-06-30
+1288,1042,KEL002,shelf_compliance,low_shelf_facings,16.17,12.13,2024-06-30
+1289,1042,KEL002,promotion_execution,missing_display,16.17,13.74,2024-06-30
+1290,1042,KEL002,event_opportunity,near_ASB Classic Tennis A,16.17,11.32,2024-06-30
+1291,1042,KEL003,out_of_stock,product_oos,35.24,35.24,2024-06-30
+1292,1042,KEL003,shelf_compliance,low_shelf_facings,35.24,26.43,2024-06-30
+1293,1042,KEL003,promotion_execution,missing_display,35.24,29.95,2024-06-30
+1294,1042,KEL003,event_opportunity,near_ASB Classic Tennis A,35.24,24.67,2024-06-30
+1295,1042,KEL004,event_opportunity,near_ASB Classic Tennis A,0.24,0.17,2024-06-30
+1296,1042,KEL005,event_opportunity,near_ASB Classic Tennis A,0.0,0.0,2024-06-30
+1297,1042,KEL006,event_opportunity,near_ASB Classic Tennis A,0.24,0.17,2024-06-30
+1298,1042,KEL007,event_opportunity,near_ASB Classic Tennis A,0.0,0.0,2024-06-30
+1299,1042,KEL008,event_opportunity,near_ASB Classic Tennis A,0.24,0.17,2024-06-30
+1300,1042,KEL009,event_opportunity,near_ASB Classic Tennis A,8.13,5.69,2024-06-30
+1301,1042,KEL010,shelf_compliance,low_shelf_facings,7.95,5.96,2024-06-30
+1302,1042,KEL010,promotion_execution,missing_display,7.95,6.76,2024-06-30
+1303,1042,KEL010,event_opportunity,near_ASB Classic Tennis A,7.95,5.56,2024-06-30
+1304,1042,KEL011,event_opportunity,near_ASB Classic Tennis A,1.1,0.77,2024-06-30
+1305,1042,KEL012,event_opportunity,near_ASB Classic Tennis A,4.89,3.42,2024-06-30
+1306,1042,KEL013,event_opportunity,near_ASB Classic Tennis A,0.81,0.57,2024-06-30
+1307,1042,KEL014,event_opportunity,near_ASB Classic Tennis A,1.84,1.29,2024-06-30
+1308,1042,KEL015,shelf_compliance,low_shelf_facings,16.7,12.52,2024-06-30
+1309,1042,KEL015,promotion_execution,missing_display,16.7,14.19,2024-06-30
+1310,1042,KEL015,event_opportunity,near_ASB Classic Tennis A,16.7,11.69,2024-06-30
+1311,1042,KEL016,promotion_execution,missing_display,0.0,0.0,2024-06-30
+1312,1042,KEL016,event_opportunity,near_ASB Classic Tennis A,0.0,0.0,2024-06-30
+1313,1042,KEL017,event_opportunity,near_ASB Classic Tennis A,7.27,5.09,2024-06-30
+1314,1042,KEL018,event_opportunity,near_ASB Classic Tennis A,1.11,0.78,2024-06-30
+1315,1042,KEL019,event_opportunity,near_ASB Classic Tennis A,1.54,1.08,2024-06-30
+1316,1042,KEL020,event_opportunity,near_ASB Classic Tennis A,9.3,6.51,2024-06-30
+1317,1043,KEL001,promotion_execution,missing_display,3.79,3.22,2024-06-30
+1318,1043,KEL001,event_opportunity,near_Homegrown Festival W,3.79,2.65,2024-06-30
+1319,1043,KEL002,out_of_stock,product_oos,35.1,35.1,2024-06-30
+1320,1043,KEL002,shelf_compliance,low_shelf_facings,35.1,26.33,2024-06-30
+1321,1043,KEL002,event_opportunity,near_Homegrown Festival W,35.1,24.57,2024-06-30
+1322,1043,KEL003,shelf_compliance,low_shelf_facings,6.23,4.67,2024-06-30
+1323,1043,KEL003,promotion_execution,missing_display,6.23,5.3,2024-06-30
+1324,1043,KEL003,event_opportunity,near_Homegrown Festival W,6.23,4.36,2024-06-30
+1325,1043,KEL004,out_of_stock,product_oos,35.1,35.1,2024-06-30
+1326,1043,KEL004,shelf_compliance,low_shelf_facings,35.1,26.33,2024-06-30
+1327,1043,KEL004,event_opportunity,near_Homegrown Festival W,35.1,24.57,2024-06-30
+1328,1043,KEL005,event_opportunity,near_Homegrown Festival W,0.99,0.69,2024-06-30
+1329,1043,KEL006,event_opportunity,near_Homegrown Festival W,5.15,3.6,2024-06-30
+1330,1043,KEL007,event_opportunity,near_Homegrown Festival W,3.83,2.68,2024-06-30
+1331,1043,KEL008,promotion_execution,missing_display,5.33,4.53,2024-06-30
+1332,1043,KEL008,event_opportunity,near_Homegrown Festival W,5.33,3.73,2024-06-30
+1333,1043,KEL009,shelf_compliance,low_shelf_facings,8.13,6.1,2024-06-30
+1334,1043,KEL009,promotion_execution,missing_display,8.13,6.91,2024-06-30
+1335,1043,KEL009,event_opportunity,near_Homegrown Festival W,8.13,5.69,2024-06-30
+1336,1043,KEL010,event_opportunity,near_Homegrown Festival W,4.13,2.89,2024-06-30
+1337,1043,KEL011,event_opportunity,near_Homegrown Festival W,6.86,4.8,2024-06-30
+1338,1043,KEL012,event_opportunity,near_Homegrown Festival W,2.69,1.88,2024-06-30
+1339,1043,KEL013,event_opportunity,near_Homegrown Festival W,1.84,1.29,2024-06-30
+1340,1043,KEL014,shelf_compliance,low_shelf_facings,9.02,6.76,2024-06-30
+1341,1043,KEL014,promotion_execution,missing_display,9.02,7.67,2024-06-30
+1342,1043,KEL014,event_opportunity,near_Homegrown Festival W,9.02,6.31,2024-06-30
+1343,1043,KEL015,event_opportunity,near_Homegrown Festival W,2.87,2.01,2024-06-30
+1344,1043,KEL016,event_opportunity,near_Homegrown Festival W,1.21,0.85,2024-06-30
+1345,1043,KEL017,out_of_stock,product_oos,34.18,34.18,2024-06-30
+1346,1043,KEL017,shelf_compliance,low_shelf_facings,34.18,25.63,2024-06-30
+1347,1043,KEL017,promotion_execution,missing_display,34.18,29.05,2024-06-30
+1348,1043,KEL017,event_opportunity,near_Homegrown Festival W,34.18,23.93,2024-06-30
+1349,1043,KEL018,event_opportunity,near_Homegrown Festival W,0.0,0.0,2024-06-30
+1350,1043,KEL019,event_opportunity,near_Homegrown Festival W,0.0,0.0,2024-06-30
+1351,1043,KEL020,event_opportunity,near_Homegrown Festival W,2.38,1.67,2024-06-30
+1352,1044,KEL001,promotion_execution,missing_display,0.0,0.0,2024-06-30
+1353,1044,KEL001,event_opportunity,near_Palmerston North Rug,0.0,0.0,2024-06-30
+1354,1044,KEL002,event_opportunity,near_Palmerston North Rug,0.0,0.0,2024-06-30
+1355,1044,KEL003,out_of_stock,product_oos,49.32,49.32,2024-06-30
+1356,1044,KEL003,promotion_execution,missing_display,49.32,41.92,2024-06-30
+1357,1044,KEL003,event_opportunity,near_Palmerston North Rug,49.32,34.52,2024-06-30
+1358,1044,KEL004,shelf_compliance,low_shelf_facings,2.28,1.71,2024-06-30
+1359,1044,KEL004,promotion_execution,missing_display,2.28,1.94,2024-06-30
+1360,1044,KEL004,event_opportunity,near_Palmerston North Rug,2.28,1.6,2024-06-30
+1361,1044,KEL005,shelf_compliance,low_shelf_facings,4.83,3.62,2024-06-30
+1362,1044,KEL005,promotion_execution,missing_display,4.83,4.11,2024-06-30
+1363,1044,KEL005,event_opportunity,near_Palmerston North Rug,4.83,3.38,2024-06-30
+1364,1044,KEL006,promotion_execution,missing_display,2.28,1.94,2024-06-30
+1365,1044,KEL006,event_opportunity,near_Palmerston North Rug,2.28,1.6,2024-06-30
+1366,1044,KEL007,event_opportunity,near_Palmerston North Rug,0.0,0.0,2024-06-30
+1367,1044,KEL008,event_opportunity,near_Palmerston North Rug,1.5,1.05,2024-06-30
+1368,1044,KEL009,event_opportunity,near_Palmerston North Rug,3.34,2.34,2024-06-30
+1369,1044,KEL010,event_opportunity,near_Palmerston North Rug,0.0,0.0,2024-06-30
+1370,1044,KEL011,out_of_stock,product_oos,55.34,55.34,2024-06-30
+1371,1044,KEL011,shelf_compliance,low_shelf_facings,55.34,41.51,2024-06-30
+1372,1044,KEL011,event_opportunity,near_Palmerston North Rug,55.34,38.74,2024-06-30
+1373,1044,KEL012,shelf_compliance,low_shelf_facings,12.28,9.21,2024-06-30
+1374,1044,KEL012,promotion_execution,missing_display,12.28,10.44,2024-06-30
+1375,1044,KEL012,event_opportunity,near_Palmerston North Rug,12.28,8.6,2024-06-30
+1376,1044,KEL013,out_of_stock,product_oos,56.71,56.71,2024-06-30
+1377,1044,KEL013,shelf_compliance,low_shelf_facings,56.71,42.53,2024-06-30
+1378,1044,KEL013,event_opportunity,near_Palmerston North Rug,56.71,39.7,2024-06-30
+1379,1044,KEL014,event_opportunity,near_Palmerston North Rug,0.0,0.0,2024-06-30
+1380,1044,KEL015,event_opportunity,near_Palmerston North Rug,0.0,0.0,2024-06-30
+1381,1044,KEL016,event_opportunity,near_Palmerston North Rug,0.0,0.0,2024-06-30
+1382,1044,KEL017,shelf_compliance,low_shelf_facings,17.2,12.9,2024-06-30
+1383,1044,KEL017,promotion_execution,missing_display,17.2,14.62,2024-06-30
+1384,1044,KEL017,event_opportunity,near_Palmerston North Rug,17.2,12.04,2024-06-30
+1385,1044,KEL018,event_opportunity,near_Palmerston North Rug,0.0,0.0,2024-06-30
+1386,1044,KEL019,shelf_compliance,low_shelf_facings,2.19,1.64,2024-06-30
+1387,1044,KEL019,promotion_execution,missing_display,2.19,1.86,2024-06-30
+1388,1044,KEL019,event_opportunity,near_Palmerston North Rug,2.19,1.53,2024-06-30
+1389,1044,KEL020,event_opportunity,near_Palmerston North Rug,0.0,0.0,2024-06-30
+1390,1045,KEL001,event_opportunity,near_Palmerston North Rug,5.44,3.81,2024-06-30
+1391,1045,KEL002,event_opportunity,near_Palmerston North Rug,1.26,0.88,2024-06-30
+1392,1045,KEL003,event_opportunity,near_Palmerston North Rug,0.0,0.0,2024-06-30
+1393,1045,KEL004,out_of_stock,product_oos,61.16,61.16,2024-06-30
+1394,1045,KEL004,shelf_compliance,low_shelf_facings,61.16,45.87,2024-06-30
+1395,1045,KEL004,event_opportunity,near_Palmerston North Rug,61.16,42.81,2024-06-30
+1396,1045,KEL005,event_opportunity,near_Palmerston North Rug,0.0,0.0,2024-06-30
+1397,1045,KEL006,promotion_execution,missing_display,3.05,2.59,2024-06-30
+1398,1045,KEL006,event_opportunity,near_Palmerston North Rug,3.05,2.13,2024-06-30
+1399,1045,KEL007,out_of_stock,product_oos,52.63,52.63,2024-06-30
+1400,1045,KEL007,promotion_execution,missing_display,52.63,44.74,2024-06-30
+1401,1045,KEL007,event_opportunity,near_Palmerston North Rug,52.63,36.84,2024-06-30
+1402,1045,KEL008,shelf_compliance,low_shelf_facings,9.04,6.78,2024-06-30
+1403,1045,KEL008,promotion_execution,missing_display,9.04,7.68,2024-06-30
+1404,1045,KEL008,event_opportunity,near_Palmerston North Rug,9.04,6.33,2024-06-30
+1405,1045,KEL009,shelf_compliance,low_shelf_facings,5.34,4.0,2024-06-30
+1406,1045,KEL009,promotion_execution,missing_display,5.34,4.54,2024-06-30
+1407,1045,KEL009,event_opportunity,near_Palmerston North Rug,5.34,3.74,2024-06-30
+1408,1045,KEL010,out_of_stock,product_oos,38.61,38.61,2024-06-30
+1409,1045,KEL010,shelf_compliance,low_shelf_facings,38.61,28.96,2024-06-30
+1410,1045,KEL010,promotion_execution,missing_display,38.61,32.82,2024-06-30
+1411,1045,KEL010,event_opportunity,near_Palmerston North Rug,38.61,27.03,2024-06-30
+1412,1045,KEL011,shelf_compliance,low_shelf_facings,6.31,4.73,2024-06-30
+1413,1045,KEL011,event_opportunity,near_Palmerston North Rug,6.31,4.42,2024-06-30
+1414,1045,KEL012,event_opportunity,near_Palmerston North Rug,0.0,0.0,2024-06-30
+1415,1045,KEL013,event_opportunity,near_Palmerston North Rug,0.0,0.0,2024-06-30
+1416,1045,KEL014,promotion_execution,missing_display,0.9,0.77,2024-06-30
+1417,1045,KEL014,event_opportunity,near_Palmerston North Rug,0.9,0.63,2024-06-30
+1418,1045,KEL015,shelf_compliance,low_shelf_facings,12.62,9.46,2024-06-30
+1419,1045,KEL015,promotion_execution,missing_display,12.62,10.73,2024-06-30
+1420,1045,KEL015,event_opportunity,near_Palmerston North Rug,12.62,8.83,2024-06-30
+1421,1045,KEL016,event_opportunity,near_Palmerston North Rug,0.0,0.0,2024-06-30
+1422,1045,KEL017,event_opportunity,near_Palmerston North Rug,4.33,3.03,2024-06-30
+1423,1045,KEL018,event_opportunity,near_Palmerston North Rug,0.51,0.36,2024-06-30
+1424,1045,KEL019,out_of_stock,product_oos,43.05,43.05,2024-06-30
+1425,1045,KEL019,event_opportunity,near_Palmerston North Rug,43.05,30.13,2024-06-30
+1426,1045,KEL020,event_opportunity,near_Palmerston North Rug,0.0,0.0,2024-06-30
+1427,1046,KEL001,event_opportunity,near_ASB Classic Tennis A,0.11,0.08,2024-06-30
+1428,1046,KEL002,event_opportunity,near_ASB Classic Tennis A,3.95,2.77,2024-06-30
+1429,1046,KEL003,promotion_execution,missing_display,3.25,2.76,2024-06-30
+1430,1046,KEL003,event_opportunity,near_ASB Classic Tennis A,3.25,2.27,2024-06-30
+1431,1046,KEL004,event_opportunity,near_ASB Classic Tennis A,3.95,2.77,2024-06-30
+1432,1046,KEL005,out_of_stock,product_oos,32.12,32.12,2024-06-30
+1433,1046,KEL005,promotion_execution,missing_display,32.12,27.3,2024-06-30
+1434,1046,KEL005,event_opportunity,near_ASB Classic Tennis A,32.12,22.48,2024-06-30
+1435,1046,KEL006,shelf_compliance,low_shelf_facings,9.28,6.96,2024-06-30
+1436,1046,KEL006,promotion_execution,missing_display,9.28,7.89,2024-06-30
+1437,1046,KEL006,event_opportunity,near_ASB Classic Tennis A,9.28,6.5,2024-06-30
+1438,1046,KEL007,promotion_execution,missing_display,1.88,1.6,2024-06-30
+1439,1046,KEL007,event_opportunity,near_ASB Classic Tennis A,1.88,1.32,2024-06-30
+1440,1046,KEL008,event_opportunity,near_ASB Classic Tennis A,3.95,2.77,2024-06-30
+1441,1046,KEL009,shelf_compliance,low_shelf_facings,6.59,4.94,2024-06-30
+1442,1046,KEL009,event_opportunity,near_ASB Classic Tennis A,6.59,4.61,2024-06-30
+1443,1046,KEL010,event_opportunity,near_ASB Classic Tennis A,3.28,2.3,2024-06-30
+1444,1046,KEL011,event_opportunity,near_ASB Classic Tennis A,0.0,0.0,2024-06-30
+1445,1046,KEL012,shelf_compliance,low_shelf_facings,5.94,4.46,2024-06-30
+1446,1046,KEL012,promotion_execution,missing_display,5.94,5.05,2024-06-30
+1447,1046,KEL012,event_opportunity,near_ASB Classic Tennis A,5.94,4.16,2024-06-30
+1448,1046,KEL013,promotion_execution,missing_display,0.94,0.8,2024-06-30
+1449,1046,KEL013,event_opportunity,near_ASB Classic Tennis A,0.94,0.66,2024-06-30
+1450,1046,KEL014,event_opportunity,near_ASB Classic Tennis A,5.39,3.77,2024-06-30
+1451,1046,KEL015,shelf_compliance,low_shelf_facings,6.47,4.85,2024-06-30
+1452,1046,KEL015,promotion_execution,missing_display,6.47,5.5,2024-06-30
+1453,1046,KEL015,event_opportunity,near_ASB Classic Tennis A,6.47,4.53,2024-06-30
+1454,1046,KEL016,event_opportunity,near_ASB Classic Tennis A,0.0,0.0,2024-06-30
+1455,1046,KEL017,event_opportunity,near_ASB Classic Tennis A,7.69,5.38,2024-06-30
+1456,1046,KEL018,event_opportunity,near_ASB Classic Tennis A,4.75,3.32,2024-06-30
+1457,1046,KEL019,shelf_compliance,low_shelf_facings,5.68,4.26,2024-06-30
+1458,1046,KEL019,event_opportunity,near_ASB Classic Tennis A,5.68,3.98,2024-06-30
+1459,1046,KEL020,shelf_compliance,low_shelf_facings,7.41,5.56,2024-06-30
+1460,1046,KEL020,promotion_execution,missing_display,7.41,6.3,2024-06-30
+1461,1046,KEL020,event_opportunity,near_ASB Classic Tennis A,7.41,5.19,2024-06-30
+1462,1047,KEL002,shelf_compliance,low_shelf_facings,10.36,7.77,2024-06-30
+1463,1047,KEL002,promotion_execution,missing_display,10.36,8.81,2024-06-30
+1464,1047,KEL005,shelf_compliance,low_shelf_facings,6.04,4.53,2024-06-30
+1465,1047,KEL005,promotion_execution,missing_display,6.04,5.13,2024-06-30
+1466,1047,KEL010,shelf_compliance,low_shelf_facings,12.57,9.43,2024-06-30
+1467,1047,KEL010,promotion_execution,missing_display,12.57,10.68,2024-06-30
+1468,1047,KEL012,shelf_compliance,low_shelf_facings,12.52,9.39,2024-06-30
+1469,1047,KEL012,promotion_execution,missing_display,12.52,10.64,2024-06-30
+1470,1047,KEL014,shelf_compliance,low_shelf_facings,6.02,4.51,2024-06-30
+1471,1047,KEL019,promotion_execution,missing_display,3.49,2.97,2024-06-30
+1472,1048,KEL001,event_opportunity,near_Tauranga Summer Fest,0.99,0.69,2024-06-30
+1473,1048,KEL002,promotion_execution,missing_display,3.05,2.59,2024-06-30
+1474,1048,KEL002,event_opportunity,near_Tauranga Summer Fest,3.05,2.13,2024-06-30
+1475,1048,KEL003,shelf_compliance,low_shelf_facings,2.86,2.15,2024-06-30
+1476,1048,KEL003,event_opportunity,near_Tauranga Summer Fest,2.86,2.0,2024-06-30
+1477,1048,KEL004,event_opportunity,near_Tauranga Summer Fest,0.12,0.08,2024-06-30
+1478,1048,KEL005,promotion_execution,missing_display,3.57,3.03,2024-06-30
+1479,1048,KEL005,event_opportunity,near_Tauranga Summer Fest,3.57,2.5,2024-06-30
+1480,1048,KEL006,event_opportunity,near_Tauranga Summer Fest,0.12,0.08,2024-06-30
+1481,1048,KEL007,event_opportunity,near_Tauranga Summer Fest,0.0,0.0,2024-06-30
+1482,1048,KEL008,event_opportunity,near_Tauranga Summer Fest,0.12,0.08,2024-06-30
+1483,1048,KEL009,out_of_stock,product_oos,14.27,14.27,2024-06-30
+1484,1048,KEL009,event_opportunity,near_Tauranga Summer Fest,14.27,9.99,2024-06-30
+1485,1048,KEL010,shelf_compliance,low_shelf_facings,0.22,0.17,2024-06-30
+1486,1048,KEL010,event_opportunity,near_Tauranga Summer Fest,0.22,0.15,2024-06-30
+1487,1048,KEL011,promotion_execution,missing_display,1.37,1.16,2024-06-30
+1488,1048,KEL011,event_opportunity,near_Tauranga Summer Fest,1.37,0.96,2024-06-30
+1489,1048,KEL012,shelf_compliance,low_shelf_facings,1.85,1.39,2024-06-30
+1490,1048,KEL012,event_opportunity,near_Tauranga Summer Fest,1.85,1.29,2024-06-30
+1491,1048,KEL013,event_opportunity,near_Tauranga Summer Fest,4.0,2.8,2024-06-30
+1492,1048,KEL014,event_opportunity,near_Tauranga Summer Fest,2.78,1.95,2024-06-30
+1493,1048,KEL015,shelf_compliance,low_shelf_facings,4.09,3.07,2024-06-30
+1494,1048,KEL015,promotion_execution,missing_display,4.09,3.48,2024-06-30
+1495,1048,KEL015,event_opportunity,near_Tauranga Summer Fest,4.09,2.86,2024-06-30
+1496,1048,KEL016,event_opportunity,near_Tauranga Summer Fest,1.89,1.32,2024-06-30
+1497,1048,KEL017,event_opportunity,near_Tauranga Summer Fest,0.0,0.0,2024-06-30
+1498,1048,KEL018,event_opportunity,near_Tauranga Summer Fest,3.17,2.22,2024-06-30
+1499,1048,KEL019,promotion_execution,missing_display,0.65,0.55,2024-06-30
+1500,1048,KEL019,event_opportunity,near_Tauranga Summer Fest,0.65,0.45,2024-06-30
+1501,1048,KEL020,event_opportunity,near_Tauranga Summer Fest,5.24,3.67,2024-06-30
+1502,1049,KEL001,event_opportunity,near_ASB Classic Tennis A,0.38,0.27,2024-06-30
+1503,1049,KEL002,out_of_stock,product_oos,34.5,34.5,2024-06-30
+1504,1049,KEL002,event_opportunity,near_ASB Classic Tennis A,34.5,24.15,2024-06-30
+1505,1049,KEL003,event_opportunity,near_ASB Classic Tennis A,4.35,3.04,2024-06-30
+1506,1049,KEL004,event_opportunity,near_ASB Classic Tennis A,4.55,3.18,2024-06-30
+1507,1049,KEL005,event_opportunity,near_ASB Classic Tennis A,0.38,0.27,2024-06-30
+1508,1049,KEL006,event_opportunity,near_ASB Classic Tennis A,4.55,3.18,2024-06-30
+1509,1049,KEL007,shelf_compliance,low_shelf_facings,10.25,7.69,2024-06-30
+1510,1049,KEL007,promotion_execution,missing_display,10.25,8.71,2024-06-30
+1511,1049,KEL007,event_opportunity,near_ASB Classic Tennis A,10.25,7.17,2024-06-30
+1512,1049,KEL008,event_opportunity,near_ASB Classic Tennis A,4.55,3.18,2024-06-30
+1513,1049,KEL009,out_of_stock,product_oos,27.3,27.3,2024-06-30
+1514,1049,KEL009,event_opportunity,near_ASB Classic Tennis A,27.3,19.11,2024-06-30
+1515,1049,KEL010,shelf_compliance,low_shelf_facings,8.17,6.13,2024-06-30
+1516,1049,KEL010,event_opportunity,near_ASB Classic Tennis A,8.17,5.72,2024-06-30
+1517,1049,KEL011,event_opportunity,near_ASB Classic Tennis A,0.88,0.62,2024-06-30
+1518,1049,KEL012,promotion_execution,missing_display,1.8,1.53,2024-06-30
+1519,1049,KEL012,event_opportunity,near_ASB Classic Tennis A,1.8,1.26,2024-06-30
+1520,1049,KEL013,event_opportunity,near_ASB Classic Tennis A,5.3,3.71,2024-06-30
+1521,1049,KEL014,out_of_stock,product_oos,26.94,26.94,2024-06-30
+1522,1049,KEL014,shelf_compliance,low_shelf_facings,26.94,20.21,2024-06-30
+1523,1049,KEL014,promotion_execution,missing_display,26.94,22.9,2024-06-30
+1524,1049,KEL014,event_opportunity,near_ASB Classic Tennis A,26.94,18.86,2024-06-30
+1525,1049,KEL015,out_of_stock,product_oos,31.34,31.34,2024-06-30
+1526,1049,KEL015,event_opportunity,near_ASB Classic Tennis A,31.34,21.94,2024-06-30
+1527,1049,KEL016,event_opportunity,near_ASB Classic Tennis A,5.25,3.67,2024-06-30
+1528,1049,KEL017,event_opportunity,near_ASB Classic Tennis A,5.52,3.86,2024-06-30
+1529,1049,KEL018,event_opportunity,near_ASB Classic Tennis A,4.28,3.0,2024-06-30
+1530,1049,KEL019,event_opportunity,near_ASB Classic Tennis A,1.89,1.32,2024-06-30
+1531,1049,KEL020,out_of_stock,product_oos,36.7,36.7,2024-06-30
+1532,1049,KEL020,shelf_compliance,low_shelf_facings,36.7,27.53,2024-06-30
+1533,1049,KEL020,event_opportunity,near_ASB Classic Tennis A,36.7,25.69,2024-06-30
+1534,1050,KEL001,event_opportunity,near_Palmerston North Rug,0.0,0.0,2024-06-30
+1535,1050,KEL002,shelf_compliance,low_shelf_facings,8.69,6.52,2024-06-30
+1536,1050,KEL002,promotion_execution,missing_display,8.69,7.39,2024-06-30
+1537,1050,KEL002,event_opportunity,near_Palmerston North Rug,8.69,6.08,2024-06-30
+1538,1050,KEL003,out_of_stock,product_oos,41.28,41.28,2024-06-30
+1539,1050,KEL003,event_opportunity,near_Palmerston North Rug,41.28,28.9,2024-06-30
+1540,1050,KEL004,shelf_compliance,low_shelf_facings,8.69,6.52,2024-06-30
+1541,1050,KEL004,promotion_execution,missing_display,8.69,7.39,2024-06-30
+1542,1050,KEL004,event_opportunity,near_Palmerston North Rug,8.69,6.08,2024-06-30
+1543,1050,KEL005,event_opportunity,near_Palmerston North Rug,0.0,0.0,2024-06-30
+1544,1050,KEL006,shelf_compliance,low_shelf_facings,2.7,2.03,2024-06-30
+1545,1050,KEL006,promotion_execution,missing_display,2.7,2.29,2024-06-30
+1546,1050,KEL006,event_opportunity,near_Palmerston North Rug,2.7,1.89,2024-06-30
+1547,1050,KEL007,event_opportunity,near_Palmerston North Rug,0.0,0.0,2024-06-30
+1548,1050,KEL008,event_opportunity,near_Palmerston North Rug,0.0,0.0,2024-06-30
+1549,1050,KEL009,event_opportunity,near_Palmerston North Rug,0.0,0.0,2024-06-30
+1550,1050,KEL010,event_opportunity,near_Palmerston North Rug,0.0,0.0,2024-06-30
+1551,1050,KEL011,event_opportunity,near_Palmerston North Rug,0.0,0.0,2024-06-30
+1552,1050,KEL012,event_opportunity,near_Palmerston North Rug,1.5,1.05,2024-06-30
+1553,1050,KEL013,event_opportunity,near_Palmerston North Rug,0.0,0.0,2024-06-30
+1554,1050,KEL014,shelf_compliance,low_shelf_facings,8.89,6.67,2024-06-30
+1555,1050,KEL014,promotion_execution,missing_display,8.89,7.56,2024-06-30
+1556,1050,KEL014,event_opportunity,near_Palmerston North Rug,8.89,6.22,2024-06-30
+1557,1050,KEL015,out_of_stock,product_oos,34.57,34.57,2024-06-30
+1558,1050,KEL015,shelf_compliance,low_shelf_facings,34.57,25.93,2024-06-30
+1559,1050,KEL015,event_opportunity,near_Palmerston North Rug,34.57,24.2,2024-06-30
+1560,1050,KEL016,out_of_stock,product_oos,30.17,30.17,2024-06-30
+1561,1050,KEL016,shelf_compliance,low_shelf_facings,30.17,22.63,2024-06-30
+1562,1050,KEL016,promotion_execution,missing_display,30.17,25.64,2024-06-30
+1563,1050,KEL016,event_opportunity,near_Palmerston North Rug,30.17,21.12,2024-06-30
+1564,1050,KEL017,event_opportunity,near_Palmerston North Rug,1.61,1.13,2024-06-30
+1565,1050,KEL018,event_opportunity,near_Palmerston North Rug,0.0,0.0,2024-06-30
+1566,1050,KEL019,shelf_compliance,low_shelf_facings,3.06,2.29,2024-06-30
+1567,1050,KEL019,promotion_execution,missing_display,3.06,2.6,2024-06-30
+1568,1050,KEL019,event_opportunity,near_Palmerston North Rug,3.06,2.14,2024-06-30
+1569,1050,KEL020,shelf_compliance,low_shelf_facings,0.0,0.0,2024-06-30
+1570,1050,KEL020,promotion_execution,missing_display,0.0,0.0,2024-06-30
+1571,1050,KEL020,event_opportunity,near_Palmerston North Rug,0.0,0.0,2024-06-30

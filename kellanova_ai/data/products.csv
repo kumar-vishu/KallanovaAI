@@ -1,0 +1,21 @@
+sku_id,product_name,brand,category,pack_size,base_price,promo_sensitivity,seasonality
+KEL001,Kellogg's Corn Flakes 500g,Kellogg's,Cereal,500g,5.49,1.3,even
+KEL002,Kellogg's Coco Pops 500g,Kellogg's,Cereal,500g,5.99,1.5,even
+KEL003,Kellogg's Nutri-Grain 500g,Kellogg's,Cereal,500g,6.49,1.2,summer
+KEL004,Kellogg's Special K 400g,Kellogg's,Cereal,400g,5.99,1.4,even
+KEL005,Kellogg's Rice Bubbles 500g,Kellogg's,Cereal,500g,5.49,1.2,even
+KEL006,Kellogg's Sultana Bran 500g,Kellogg's,Cereal,500g,5.99,1.1,even
+KEL007,Kellogg's Froot Loops 500g,Kellogg's,Cereal,500g,6.49,1.6,even
+KEL008,Kellogg's Just Right 500g,Kellogg's,Cereal,500g,5.99,1.2,even
+KEL009,LCMs Choc Bars 6pk,LCMs,Snack Bars,6pk,4.99,1.7,summer
+KEL010,LCMs Original Bars 6pk,LCMs,Snack Bars,6pk,4.49,1.6,summer
+KEL011,Nutri-Grain Iron Man Bar 6pk,Kellogg's,Snack Bars,6pk,5.49,1.5,summer
+KEL012,Special K Bars Choc 6pk,Kellogg's,Snack Bars,6pk,4.99,1.4,even
+KEL013,Pringles Original 134g,Pringles,Savoury Snacks,134g,4.49,1.8,event
+KEL014,Pringles Sour Cream 134g,Pringles,Savoury Snacks,134g,4.49,1.8,event
+KEL015,Pringles BBQ 134g,Pringles,Savoury Snacks,134g,4.49,1.7,event
+KEL016,Pringles Cheese 134g,Pringles,Savoury Snacks,134g,4.49,1.7,event
+KEL017,Pringles Multipack 5pk,Pringles,Savoury Snacks,5pk,6.99,1.9,event
+KEL018,Nutri-Grain Cereal Pouch 70g,Kellogg's,On-the-Go,70g,2.99,1.3,summer
+KEL019,Special K Protein Bar 40g,Kellogg's,On-the-Go,40g,2.49,1.4,even
+KEL020,Kellogg's Muesli Clusters 450g,Kellogg's,Cereal,450g,6.99,1.2,even

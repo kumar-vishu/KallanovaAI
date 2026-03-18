@@ -30,15 +30,9 @@ Generated/
 *.jpg
 *.jpeg
 
-# ── Data files (regenerate with synthetic/generate_all.py) ───
-kellanova_ai/data/*.csv
-kellanova_ai/data/*.parquet
-kellanova_ai/data/*.duckdb
-kellanova_ai/data/*.db
-
-# ── ML model artefacts (regenerate with generate_all.py) ─────
-kellanova_ai/data/models/
-kellanova_ai/data/vector/
+# ── Data files — committed directly so Streamlit Cloud works ─
+# (all files are small synthetic data; no secrets or PII)
+# kellanova_ai/data/ is intentionally NOT excluded
 
 # ── Streamlit cache ───────────────────────────────────────────
 .streamlit/

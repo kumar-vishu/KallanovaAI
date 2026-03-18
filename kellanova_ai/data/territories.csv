@@ -1,0 +1,6 @@
+territory_id,territory_name,region,country
+T01,Auckland Metro,Auckland,NZ
+T02,Upper North Island,Waikato/BOP,NZ
+T03,Lower North Island,Wellington/Manawatu,NZ
+T04,Upper South Island,Canterbury/Nelson,NZ
+T05,Lower South Island,Otago/Southland,NZ

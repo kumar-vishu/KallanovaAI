@@ -1,0 +1,51 @@
+store_id,store_name,chain,store_format,city,region,latitude,longitude,rep_id,territory_id,base_demand_multiplier
+1001,Four Square Nelson,Four Square,Convenience,Nelson,Canterbury/Nelson,-41.256256,173.291895,R07,T04,0.968
+1002,Woolworths Wellington North Metro,Woolworths NZ,Supermarket,Wellington North,Wellington/Manawatu,-41.234875,174.798015,R06,T03,1.439
+1003,FreshChoice Queenstown,FreshChoice,Supermarket,Queenstown,Otago/Southland,-45.01829,168.660337,R10,T05,1.289
+1004,SuperValue Palmerston North,SuperValue,Supermarket,Palmerston North,Wellington/Manawatu,-40.339195,175.613467,R05,T03,1.846
+1005,Woolworths Hamilton Metro,Woolworths NZ,Supermarket,Hamilton,Waikato/BOP,-37.771275,175.290435,R04,T02,1.54
+1006,New World Auckland CBD Central,New World,Supermarket,Auckland CBD,Auckland,-36.841178,174.77309,R01,T01,2.066
+1007,SuperValue Hamilton,SuperValue,Supermarket,Hamilton,Waikato/BOP,-37.788218,175.266879,R03,T02,1.186
+1008,New World Rotorua,New World,Supermarket,Rotorua,Waikato/BOP,-38.130007,176.247186,R03,T02,1.785
+1009,FreshChoice Hamilton,FreshChoice,Supermarket,Hamilton,Waikato/BOP,-37.77371,175.291491,R04,T02,1.353
+1010,PAK'nSAVE Wellington CBD,PAK'nSAVE,Supermarket,Wellington CBD,Wellington/Manawatu,-41.30091,174.764196,R06,T03,1.876
+1011,Woolworths Wellington CBD,Woolworths NZ,Supermarket,Wellington CBD,Wellington/Manawatu,-41.275271,174.774557,R06,T03,1.647
+1012,New World Auckland North,New World,Supermarket,Auckland North,Auckland,-36.782164,174.754144,R02,T01,1.853
+1013,Four Square Napier Local,Four Square,Convenience,Napier,Wellington/Manawatu,-39.490432,176.904158,R06,T03,0.505
+1014,SuperValue Rotorua,SuperValue,Supermarket,Rotorua,Waikato/BOP,-38.140459,176.263836,R03,T02,1.296
+1015,SuperValue Auckland CBD,SuperValue,Supermarket,Auckland CBD,Auckland,-36.856756,174.769777,R01,T01,1.635
+1016,SuperValue Nelson,SuperValue,Supermarket,Nelson,Canterbury/Nelson,-41.274345,173.296561,R08,T04,1.225
+1017,Woolworths Auckland CBD,Woolworths NZ,Supermarket,Auckland CBD,Auckland,-36.839606,174.761775,R02,T01,1.576
+1018,Woolworths Auckland North,Woolworths NZ,Supermarket,Auckland North,Auckland,-36.791054,174.750541,R02,T01,1.367
+1019,Four Square Napier,Four Square,Convenience,Napier,Wellington/Manawatu,-39.509294,176.89672,R05,T03,0.935
+1020,SuperValue Wellington CBD,SuperValue,Supermarket,Wellington CBD,Wellington/Manawatu,-41.295865,174.794967,R05,T03,1.803
+1021,FreshChoice Rotorua,FreshChoice,Supermarket,Rotorua,Waikato/BOP,-38.14591,176.233556,R03,T02,1.529
+1022,SuperValue Auckland South,SuperValue,Supermarket,Auckland South,Auckland,-37.007762,174.883169,R02,T01,1.949
+1023,New World Wellington North,New World,Supermarket,Wellington North,Wellington/Manawatu,-41.222716,174.805092,R06,T03,1.663
+1024,Four Square Napier,Four Square,Convenience,Napier,Wellington/Manawatu,-39.496168,176.893665,R05,T03,0.652
+1025,PAK'nSAVE Auckland North,PAK'nSAVE,Supermarket,Auckland North,Auckland,-36.804764,174.758806,R02,T01,2.021
+1026,New World Palmerston North,New World,Supermarket,Palmerston North,Wellington/Manawatu,-40.348663,175.589112,R05,T03,2.056
+1027,PAK'nSAVE New Plymouth,PAK'nSAVE,Supermarket,New Plymouth,Wellington/Manawatu,-39.072291,174.074666,R06,T03,1.565
+1028,Woolworths Queenstown Metro,Woolworths NZ,Supermarket,Queenstown,Otago/Southland,-45.03226,168.653279,R10,T05,1.597
+1029,New World Rotorua,New World,Supermarket,Rotorua,Waikato/BOP,-38.123748,176.265546,R03,T02,1.197
+1030,New World Palmerston North,New World,Supermarket,Palmerston North,Wellington/Manawatu,-40.34541,175.599449,R05,T03,1.813
+1031,Four Square Wellington North,Four Square,Convenience,Wellington North,Wellington/Manawatu,-41.20336,174.789209,R05,T03,0.508
+1032,Four Square Palmerston North,Four Square,Convenience,Palmerston North,Wellington/Manawatu,-40.339108,175.62053,R06,T03,0.957
+1033,New World Auckland West Central,New World,Supermarket,Auckland West,Auckland,-36.909761,174.647442,R02,T01,1.223
+1034,New World Auckland CBD,New World,Supermarket,Auckland CBD,Auckland,-36.828805,174.778967,R01,T01,1.985
+1035,FreshChoice Dunedin,FreshChoice,Supermarket,Dunedin,Otago/Southland,-45.878046,170.495437,R09,T05,1.745
+1036,FreshChoice Tauranga,FreshChoice,Supermarket,Tauranga,Waikato/BOP,-37.704021,176.174972,R03,T02,2.034
+1037,New World Auckland West,New World,Supermarket,Auckland West,Auckland,-36.886755,174.616131,R01,T01,1.238
+1038,FreshChoice Napier,FreshChoice,Supermarket,Napier,Wellington/Manawatu,-39.504943,176.904413,R06,T03,1.866
+1039,PAK'nSAVE Invercargill,PAK'nSAVE,Supermarket,Invercargill,Otago/Southland,-46.427444,168.334357,R10,T05,1.291
+1040,Woolworths Auckland North Metro,Woolworths NZ,Supermarket,Auckland North,Auckland,-36.804027,174.755553,R02,T01,1.66
+1041,FreshChoice Auckland South,FreshChoice,Supermarket,Auckland South,Auckland,-36.987835,174.888616,R01,T01,1.188
+1042,FreshChoice Auckland North,FreshChoice,Supermarket,Auckland North,Auckland,-36.771797,174.751203,R02,T01,1.563
+1043,New World Wellington CBD,New World,Supermarket,Wellington CBD,Wellington/Manawatu,-41.295042,174.793192,R06,T03,1.076
+1044,Woolworths Palmerston North Metro,Woolworths NZ,Supermarket,Palmerston North,Wellington/Manawatu,-40.368064,175.593814,R06,T03,2.065
+1045,PAK'nSAVE Palmerston North,PAK'nSAVE,Supermarket,Palmerston North,Wellington/Manawatu,-40.334979,175.620374,R05,T03,1.874
+1046,PAK'nSAVE Auckland CBD,PAK'nSAVE,Supermarket,Auckland CBD,Auckland,-36.864134,174.776477,R01,T01,1.294
+1047,FreshChoice New Plymouth,FreshChoice,Supermarket,New Plymouth,Wellington/Manawatu,-39.051359,174.08991,R06,T03,1.483
+1048,Four Square Tauranga Local,Four Square,Convenience,Tauranga,Waikato/BOP,-37.681723,176.1798,R03,T02,0.712
+1049,New World Auckland West,New World,Supermarket,Auckland West,Auckland,-36.890159,174.642663,R02,T01,1.12
+1050,Woolworths Palmerston North,Woolworths NZ,Supermarket,Palmerston North,Wellington/Manawatu,-40.339313,175.600613,R05,T03,1.201
