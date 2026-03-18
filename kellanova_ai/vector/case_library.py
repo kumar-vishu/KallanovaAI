@@ -1,32 +1,24 @@
 """
-Vector Case Library using FAISS + SentenceTransformers
-Stores historical resolution cases and retrieves the most similar
-cases for a given store issue description.
+Vector Case Library — lightweight TF-IDF retrieval (no PyTorch/FAISS required).
+Uses sklearn TfidfVectorizer + numpy cosine similarity so the app deploys fast
+on Streamlit Community Cloud without pulling in torch (~1.5 GB).
 """
 from __future__ import annotations
-import json
 import pickle
 import numpy as np
 import pandas as pd
-import faiss
 from pathlib import Path
-from sentence_transformers import SentenceTransformer
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.metrics.pairwise import cosine_similarity
 from config.settings import VECTOR_DIR
 
-INDEX_PATH  = VECTOR_DIR / "case_library.faiss"
-META_PATH   = VECTOR_DIR / "case_library_meta.pkl"
-MODEL_NAME  = "all-MiniLM-L6-v2"
+# Persist the fitted vectorizer + matrix so we only build once
+INDEX_PATH = VECTOR_DIR / "case_library_tfidf.pkl"   # replaces .faiss
+META_PATH  = VECTOR_DIR / "case_library_meta.pkl"
 
-_encoder: SentenceTransformer | None = None
-_index:   faiss.IndexFlatL2   | None = None
-_meta:    list[dict]                  = []
-
-
-def _get_encoder() -> SentenceTransformer:
-    global _encoder
-    if _encoder is None:
-        _encoder = SentenceTransformer(MODEL_NAME)
-    return _encoder
+_vectorizer: TfidfVectorizer | None = None
+_matrix:     np.ndarray      | None = None   # shape (n_cases, n_features)
+_meta:       list[dict]             = []
 
 
 def _case_to_text(case: dict) -> str:
@@ -40,35 +32,32 @@ def _case_to_text(case: dict) -> str:
 
 
 def build_case_index(case_library: pd.DataFrame) -> None:
-    """Encode all cases and build a FAISS flat L2 index."""
-    global _index, _meta
+    """Fit TF-IDF on all cases and persist the vectorizer + matrix."""
+    global _vectorizer, _matrix, _meta
 
-    encoder = _get_encoder()
-    cases   = case_library.to_dict("records")
-    texts   = [_case_to_text(c) for c in cases]
-    vectors = encoder.encode(texts, show_progress_bar=False).astype("float32")
+    cases  = case_library.to_dict("records")
+    texts  = [_case_to_text(c) for c in cases]
 
-    # L2 normalise → cosine similarity via dot product
-    faiss.normalize_L2(vectors)
+    vec    = TfidfVectorizer(ngram_range=(1, 2), max_features=8000)
+    matrix = vec.fit_transform(texts).toarray().astype("float32")
 
-    dim    = vectors.shape[1]
-    index  = faiss.IndexFlatIP(dim)        # inner product on normalised = cosine sim
-    index.add(vectors)
-
-    faiss.write_index(index, str(INDEX_PATH))
+    with open(INDEX_PATH, "wb") as f:
+        pickle.dump({"vectorizer": vec, "matrix": matrix}, f)
     with open(META_PATH, "wb") as f:
         pickle.dump(cases, f)
 
-    _index = index
-    _meta  = cases
-    print(f"  Case library index built — {len(cases)} cases, dim={dim}")
+    _vectorizer, _matrix, _meta = vec, matrix, cases
+    print(f"  Case library index built — {len(cases)} cases (TF-IDF)")
 
 
 def load_case_index() -> bool:
-    """Load persisted FAISS index. Returns True if successful."""
-    global _index, _meta
+    """Load persisted TF-IDF index. Returns True if successful."""
+    global _vectorizer, _matrix, _meta
     if INDEX_PATH.exists() and META_PATH.exists():
-        _index = faiss.read_index(str(INDEX_PATH))
+        with open(INDEX_PATH, "rb") as f:
+            obj = pickle.load(f)
+        _vectorizer = obj["vectorizer"]
+        _matrix     = obj["matrix"]
         with open(META_PATH, "rb") as f:
             _meta = pickle.load(f)
         return True
@@ -82,45 +71,35 @@ def retrieve_similar_cases(
 ) -> list[dict]:
     """
     Retrieve top-k most similar historical cases for a given query string.
-    Optionally filter by issue_type before semantic search.
+    Optionally filter by issue_type.
     """
-    global _index, _meta
+    global _vectorizer, _matrix, _meta
 
-    if _index is None:
+    if _vectorizer is None:
         if not load_case_index():
             return []
 
-    encoder = _get_encoder()
-    qvec    = encoder.encode([query], show_progress_bar=False).astype("float32")
-    faiss.normalize_L2(qvec)
+    qvec   = _vectorizer.transform([query]).toarray().astype("float32")
+    scores = cosine_similarity(qvec, _matrix)[0]   # shape (n_cases,)
 
-    # Search larger pool then filter
-    search_k = min(len(_meta), top_k * 5)
-    scores, idxs = _index.search(qvec, search_k)
+    ranked = np.argsort(scores)[::-1]
 
     results = []
-    for score, idx in zip(scores[0], idxs[0]):
-        if idx < 0 or idx >= len(_meta):
-            continue
+    for idx in ranked:
         case = dict(_meta[idx])
         if issue_type and case.get("issue_type") != issue_type:
             continue
-        case["similarity_score"] = round(float(score), 4)
+        case["similarity_score"] = round(float(scores[idx]), 4)
         results.append(case)
         if len(results) >= top_k:
             break
 
-    # Fallback: if filtered list is empty, return unfiltered top-k
+    # Fallback: return unfiltered top-k if filter gave nothing
     if not results:
-        results = []
-        for score, idx in zip(scores[0], idxs[0]):
-            if idx < 0 or idx >= len(_meta):
-                continue
+        for idx in ranked[:top_k]:
             case = dict(_meta[idx])
-            case["similarity_score"] = round(float(score), 4)
+            case["similarity_score"] = round(float(scores[idx]), 4)
             results.append(case)
-            if len(results) >= top_k:
-                break
 
     return results
 
