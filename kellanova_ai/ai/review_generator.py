@@ -1,13 +1,14 @@
 """
 AI Business Review Generator
-Uses Ollama (local LLM) to generate concise, structured business reviews
-for territory, rep, and store levels.
+Supports two LLM providers:
+  • Groq  — used automatically when GROQ_API_KEY is set (cloud deployment)
+  • Ollama — local fallback for development (ollama serve)
 All KPIs are pre-computed in Python — the LLM only writes the narrative.
 """
 from __future__ import annotations
 import re
 import requests
-from config.settings import OLLAMA_BASE_URL, OLLAMA_MODEL
+from config.settings import OLLAMA_BASE_URL, OLLAMA_MODEL, GROQ_API_KEY, GROQ_MODEL
 
 
 def _bold_numbers(text: str) -> str:
@@ -45,6 +46,23 @@ def _bold_numbers(text: str) -> str:
     return text
 
 
+def _call_groq(prompt: str, max_tokens: int = 600) -> str:
+    """Call the Groq cloud API and return the generated text."""
+    try:
+        from groq import Groq  # imported lazily — not needed on pure-local installs
+        client = Groq(api_key=GROQ_API_KEY)
+        completion = client.chat.completions.create(
+            model=GROQ_MODEL,
+            messages=[{"role": "user", "content": prompt}],
+            max_tokens=max_tokens,
+            temperature=0.4,
+        )
+        raw = completion.choices[0].message.content.strip()
+        return _bold_numbers(raw)
+    except Exception as e:
+        return _fallback_message(f"Groq error: {e}")
+
+
 def _call_ollama(prompt: str, max_tokens: int = 600) -> str:
     """Call the local Ollama API and return the generated text."""
     try:
@@ -65,6 +83,17 @@ def _call_ollama(prompt: str, max_tokens: int = 600) -> str:
         return _fallback_message("Ollama not running. Start with: ollama serve")
     except Exception as e:
         return _fallback_message(str(e))
+
+
+def _call_llm(prompt: str, max_tokens: int = 600) -> str:
+    """
+    Route to the correct LLM provider:
+      • GROQ_API_KEY set  →  Groq  (cloud deployment)
+      • otherwise         →  Ollama (local development)
+    """
+    if GROQ_API_KEY:
+        return _call_groq(prompt, max_tokens)
+    return _call_ollama(prompt, max_tokens)
 
 
 def _fallback_message(reason: str) -> str:
@@ -104,7 +133,7 @@ Write the review with these sections:
 
 Be specific, use the numbers provided, and focus on practical retail execution actions.
 """
-    return _call_ollama(prompt)
+    return _call_llm(prompt)
 
 
 # ── Rep Review ────────────────────────────────────────────────────────────────
@@ -139,7 +168,7 @@ Write the briefing with these sections:
 
 Be direct and practical — this is a daily action briefing for a field rep.
 """
-    return _call_ollama(prompt)
+    return _call_llm(prompt)
 
 
 # ── Store Review ──────────────────────────────────────────────────────────────
@@ -245,7 +274,7 @@ Write 2–3 action bullets with expected impact amounts where possible.
 
 End with one sentence on the priority recovery window.
 """
-    return _call_ollama(prompt, max_tokens=1200)
+    return _call_llm(prompt, max_tokens=1200)
 
 
 # ── Health check ──────────────────────────────────────────────────────────────

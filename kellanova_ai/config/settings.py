@@ -95,9 +95,15 @@ PRODUCTS = [
     {"sku_id":"KEL020","product_name":"Kellogg's Muesli Clusters 450g","brand":"Kellogg's","category":"Cereal",      "pack_size":"450g", "base_price":6.99,"promo_sensitivity":1.2,"seasonality":"even"},
 ]
 
-# ── Ollama settings ──────────────────────────────────────────────────────────
+# ── Ollama settings (local development) ─────────────────────────────────────
 OLLAMA_BASE_URL = os.getenv("OLLAMA_BASE_URL", "http://localhost:11434")
 OLLAMA_MODEL    = os.getenv("OLLAMA_MODEL",    "llama3.1:8b")
+
+# ── Groq settings (cloud deployment) ────────────────────────────────────────
+# Set GROQ_API_KEY as an environment variable / Streamlit Cloud secret.
+# When present, Groq is used automatically; falls back to Ollama otherwise.
+GROQ_API_KEY = os.getenv("GROQ_API_KEY", "")
+GROQ_MODEL   = os.getenv("GROQ_MODEL",   "llama3-8b-8192")
 
 # ── Opportunity scoring weights ──────────────────────────────────────────────
 SEVERITY_WEIGHTS = {
