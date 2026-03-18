@@ -1,0 +1,54 @@
+# ── Python ────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.Python
+
+# ── Virtual environments ──────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── Environment / secrets ─────────────────────────────────────
+.env
+.env.*
+*.env
+
+# ── Generated / browser snapshots ────────────────────────────
+Generated/
+*.mhtml
+
+# ── Loose image exports at repo root ─────────────────────────
+*.png
+*.jpg
+*.jpeg
+
+# ── Data files (regenerate with synthetic/generate_all.py) ───
+kellanova_ai/data/*.csv
+kellanova_ai/data/*.parquet
+kellanova_ai/data/*.duckdb
+kellanova_ai/data/*.db
+
+# ── ML model artefacts (regenerate with generate_all.py) ─────
+kellanova_ai/data/models/
+kellanova_ai/data/vector/
+
+# ── Streamlit cache ───────────────────────────────────────────
+.streamlit/
+
+# ── IDE / OS ──────────────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.user
+Thumbs.db
+.DS_Store
+desktop.ini
+
