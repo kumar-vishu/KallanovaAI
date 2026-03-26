@@ -193,17 +193,27 @@ def main():
     )
     ollama = check_ollama_available()
     if not ollama["available"]:
-        st.warning("⚠ Ollama not running — AI reviews disabled. Start with: `ollama serve`")
+        st.warning(
+            f"⚠ Ollama not reachable at `{ollama['host']}` — AI reviews disabled. "
+            "Check the server is running (`ollama serve`) and the host/port is accessible."
+        )
+    elif not ollama["model_ready"]:
+        st.warning(
+            f"⚠ Ollama is running at `{ollama['host']}` but model is not pulled. "
+            f"Run on that server: `{ollama['pull_cmd']}`"
+        )
+
+    ai_ready = ollama["available"] and ollama["model_ready"]
 
     if "Territory" in view:
         from dashboard.territory_view import render_territory
-        render_territory(ctx, territory_id, ollama["available"])
+        render_territory(ctx, territory_id, ai_ready)
     elif "Rep" in view:
         from dashboard.rep_view import render_rep
-        render_rep(ctx, rep_id, ollama["available"])
+        render_rep(ctx, rep_id, ai_ready)
     else:
         from dashboard.store_view import render_store
-        render_store(ctx, store_id, ollama["available"])
+        render_store(ctx, store_id, ai_ready)
 
 
 if __name__ == "__main__":

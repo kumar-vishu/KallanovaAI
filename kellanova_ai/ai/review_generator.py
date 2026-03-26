@@ -64,7 +64,7 @@ def _call_groq(prompt: str, max_tokens: int = 600) -> str:
 
 
 def _call_ollama(prompt: str, max_tokens: int = 600) -> str:
-    """Call the local Ollama API and return the generated text."""
+    """Call the local/remote Ollama API and return the generated text."""
     try:
         resp = requests.post(
             f"{OLLAMA_BASE_URL}/api/generate",
@@ -76,11 +76,20 @@ def _call_ollama(prompt: str, max_tokens: int = 600) -> str:
             },
             timeout=120,
         )
+        if resp.status_code == 404:
+            host = OLLAMA_BASE_URL.replace("http://", "").replace("https://", "")
+            return _fallback_message(
+                f"Model **{OLLAMA_MODEL}** is not pulled on `{host}`. "
+                f"Run this on that server:  `ollama pull {OLLAMA_MODEL}`"
+            )
         resp.raise_for_status()
         raw = resp.json().get("response", "").strip()
         return _bold_numbers(raw)
     except requests.exceptions.ConnectionError:
-        return _fallback_message("Ollama not running. Start with: ollama serve")
+        return _fallback_message(
+            f"Cannot reach Ollama at `{OLLAMA_BASE_URL}`. "
+            "Check the server is running (`ollama serve`) and the host/port is reachable."
+        )
     except Exception as e:
         return _fallback_message(str(e))
 
@@ -279,10 +288,36 @@ End with one sentence on the priority recovery window.
 
 # ── Health check ──────────────────────────────────────────────────────────────
 def check_ollama_available() -> dict:
+    """
+    Returns a dict with keys:
+      available   – True if the Ollama server responded
+      model_ready – True if OLLAMA_MODEL is pulled on that server
+      models      – list of model names present on the server
+      host        – the base URL that was checked
+      pull_cmd    – the command to run if the model is missing
+    """
     try:
         resp = requests.get(f"{OLLAMA_BASE_URL}/api/tags", timeout=5)
+        resp.raise_for_status()
         models = [m["name"] for m in resp.json().get("models", [])]
-        return {"available": True, "models": models}
+        # Match on the model name prefix so "llama3.1:8b" matches "llama3.1:8b-instruct-q4" etc.
+        model_ready = any(
+            m == OLLAMA_MODEL or m.startswith(OLLAMA_MODEL.split(":")[0])
+            for m in models
+        )
+        return {
+            "available":   True,
+            "model_ready": model_ready,
+            "models":      models,
+            "host":        OLLAMA_BASE_URL,
+            "pull_cmd":    f"ollama pull {OLLAMA_MODEL}",
+        }
     except Exception:
-        return {"available": False, "models": []}
+        return {
+            "available":   False,
+            "model_ready": False,
+            "models":      [],
+            "host":        OLLAMA_BASE_URL,
+            "pull_cmd":    f"ollama pull {OLLAMA_MODEL}",
+        }
 
